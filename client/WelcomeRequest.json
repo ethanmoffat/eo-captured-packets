@@ -1,0 +1,12 @@
+{
+  "family": "Welcome",
+  "action": "Request",
+  "expected": "Rv7+/g==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "character_id",
+      "value": 69
+    }
+  ]
+}

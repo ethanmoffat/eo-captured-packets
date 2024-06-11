@@ -1,0 +1,12 @@
+{
+  "family": "Trade",
+  "action": "Remove",
+  "expected": "Av4=",
+  "properties": [
+    {
+      "type": "int",
+      "name": "item_id",
+      "value": 1
+    }
+  ]
+}

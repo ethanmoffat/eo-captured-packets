@@ -1,0 +1,6 @@
+{
+  "family": "Global",
+  "action": "Remove",
+  "expected": "bg==",
+  "properties": null
+}

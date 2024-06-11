@@ -1,0 +1,12 @@
+{
+  "family": "Paperdoll",
+  "action": "Request",
+  "expected": "SAI=",
+  "properties": [
+    {
+      "type": "int",
+      "name": "player_id",
+      "value": 324
+    }
+  ]
+}

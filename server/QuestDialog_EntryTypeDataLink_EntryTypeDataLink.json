@@ -1,0 +1,121 @@
+{
+  "family": "Quest",
+  "action": "Dialog",
+  "expected": "Ah7+Hv4HeD+C/x7+R29hdCBCdXNpbmVzc/8C/kkgbmVlZCA2IHNoaW55IGdvYXQgaG9ybnMgdG8gY29tcGxldGUgbXkgY29sbGVjdGlvbi4u/wP+Av5ObyB0aGFua3P/A/4D/kltIHdvcmtpbmcgb24gaXQh/w==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "behavior_id",
+      "value": 29
+    },
+    {
+      "type": "int",
+      "name": "quest_id",
+      "value": 29
+    },
+    {
+      "type": "int",
+      "name": "session_id",
+      "value": 30113
+    },
+    {
+      "type": "int",
+      "name": "dialog_id",
+      "value": 32699
+    },
+    {
+      "type": "[]protocol/net/server::DialogQuestEntry",
+      "name": "quest_entries",
+      "children": [
+        {
+          "type": "protocol/net/server::DialogQuestEntry",
+          "children": [
+            {
+              "type": "int",
+              "name": "quest_id",
+              "value": 29
+            },
+            {
+              "type": "string",
+              "name": "quest_name",
+              "value": "Goat Business"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "[]protocol/net/server::DialogEntry",
+      "name": "dialog_entries",
+      "children": [
+        {
+          "type": "protocol/net/server::DialogEntry",
+          "children": [
+            {
+              "type": "DialogEntryType",
+              "name": "entry_type",
+              "value": 1
+            },
+            {
+              "type": "string",
+              "name": "line",
+              "value": "I need 6 shiny goat horns to complete my collection.."
+            }
+          ]
+        },
+        {
+          "type": "protocol/net/server::DialogEntry",
+          "children": [
+            {
+              "type": "DialogEntryType",
+              "name": "entry_type",
+              "value": 2
+            },
+            {
+              "type": "protocol/net/server::EntryTypeDataLink",
+              "name": "entry_type_data",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "link_id",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "type": "string",
+              "name": "line",
+              "value": "No thanks"
+            }
+          ]
+        },
+        {
+          "type": "protocol/net/server::DialogEntry",
+          "children": [
+            {
+              "type": "DialogEntryType",
+              "name": "entry_type",
+              "value": 2
+            },
+            {
+              "type": "protocol/net/server::EntryTypeDataLink",
+              "name": "entry_type_data",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "link_id",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "type": "string",
+              "name": "line",
+              "value": "Im working on it!"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

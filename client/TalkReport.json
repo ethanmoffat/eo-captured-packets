@@ -1,0 +1,12 @@
+{
+  "family": "Talk",
+  "action": "Report",
+  "expected": "YWRmYQ==",
+  "properties": [
+    {
+      "type": "string",
+      "name": "message",
+      "value": "adfa"
+    }
+  ]
+}

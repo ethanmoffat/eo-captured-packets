@@ -1,0 +1,19 @@
+{
+  "family": "Walk",
+  "action": "Reply",
+  "expected": "//8=",
+  "properties": [
+    {
+      "type": "[]int",
+      "name": "player_ids"
+    },
+    {
+      "type": "[]int",
+      "name": "npc_indexes"
+    },
+    {
+      "type": "[]protocol/net/server::ItemMapInfo",
+      "name": "items"
+    }
+  ]
+}

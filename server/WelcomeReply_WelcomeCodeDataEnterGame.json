@@ -1,0 +1,274 @@
+{
+  "family": "Welcome",
+  "action": "Reply",
+  "expected": "A/7/V2VsY29tZSB0byBlbmRsZXNzIHYuMjX/W0FVRyAyMDEzXSBiZWNhdXNlIG9mIHRoZSBkZG9zIGF0dGFja3MgYW5kIHRoZSBkaXJlY3QgYWN0aW9ucyBvZiB0aGUgcHJldmlvdXMgaG9zdCAoeHNzZXJ2ZXIuZXUpIGFsbCBkYXRhIGJlZW4gY29ycnVwdGVkIGFuZCByb2xsZWQgYmFjayB0byBvY3RvYmVyIDIwMTI7IGFuZCBlbmRsZXNzIG9ubGluZSB3YXMgZm9yY2VkIGludG8gYSBuZXcgZGF0YWJhc2Ugc3RhcnQuIFBsZWFzZSBjb250YWN0IHhzc2VydmVyLmV1IGlmIHlvdSBoYXZlIGNvbW1lbnRzIG9yIHF1ZXN0aW9ucyBhYm91dCB0aGlzIG1hdHRlci7/W0FVRyAyMDEzXSBvbGQgaW5hY3RpdmUgY2hhcmFjdGVyIG5hbWVzIGJlZW4gcmVsZWFzZWQgYW5kIGFyZSBmcmVlIHRvIHJlLXJlZ2lzdGVyLCBoYXZlIGZ1bi7/////////AUf//wL/Y2FwdHVyZWFjY/84AsH+B/4H/gECICAgAQIICAML/gv+C/4L/gH+Af4B/gH+Af4B/gH+Af4B/gEB/wIQAgcGBP8=",
+  "properties": [
+    {
+      "type": "WelcomeCode",
+      "name": "welcome_code",
+      "value": 2
+    },
+    {
+      "type": "protocol/net/server::WelcomeReplyWelcomeCodeDataEnterGame",
+      "name": "welcome_code_data",
+      "children": [
+        {
+          "type": "[]string",
+          "name": "news",
+          "children": [
+            {
+              "value": "Welcome to endless v.25"
+            },
+            {
+              "value": "[AUG 2013] because of the ddos attacks and the direct actions of the previous host (xsserver.eu) all data been corrupted and rolled back to october 2012; and endless online was forced into a new database start. Please contact xsserver.eu if you have comments or questions about this matter."
+            },
+            {
+              "value": "[AUG 2013] old inactive character names been released and are free to re-register, have fun."
+            },
+            {
+              "value": ""
+            },
+            {
+              "value": ""
+            },
+            {
+              "value": ""
+            },
+            {
+              "value": ""
+            },
+            {
+              "value": ""
+            },
+            {
+              "value": ""
+            }
+          ]
+        },
+        {
+          "type": "protocol/net::Weight",
+          "name": "weight",
+          "children": [
+            {
+              "type": "int",
+              "name": "current",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "max",
+              "value": 70
+            }
+          ]
+        },
+        {
+          "type": "[]protocol/net::Item",
+          "name": "items"
+        },
+        {
+          "type": "[]protocol/net::Spell",
+          "name": "spells"
+        },
+        {
+          "type": "protocol/net/server::NearbyInfo",
+          "name": "nearby",
+          "children": [
+            {
+              "type": "[]protocol/net/server::CharacterMapInfo",
+              "name": "characters",
+              "children": [
+                {
+                  "type": "protocol/net/server::CharacterMapInfo",
+                  "children": [
+                    {
+                      "type": "string",
+                      "name": "name",
+                      "value": "captureacc"
+                    },
+                    {
+                      "type": "int",
+                      "name": "player_id",
+                      "value": 308
+                    },
+                    {
+                      "type": "int",
+                      "name": "map_id",
+                      "value": 192
+                    },
+                    {
+                      "type": "protocol/net/server::BigCoords",
+                      "name": "coords",
+                      "children": [
+                        {
+                          "type": "int",
+                          "name": "x",
+                          "value": 6
+                        },
+                        {
+                          "type": "int",
+                          "name": "y",
+                          "value": 6
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Direction",
+                      "name": "direction",
+                      "value": 0
+                    },
+                    {
+                      "type": "int",
+                      "name": "class_id",
+                      "value": 1
+                    },
+                    {
+                      "type": "string",
+                      "name": "guild_tag",
+                      "value": "   "
+                    },
+                    {
+                      "type": "int",
+                      "name": "level",
+                      "value": 0
+                    },
+                    {
+                      "type": "Gender",
+                      "name": "gender",
+                      "value": 1
+                    },
+                    {
+                      "type": "int",
+                      "name": "hair_style",
+                      "value": 7
+                    },
+                    {
+                      "type": "int",
+                      "name": "hair_color",
+                      "value": 7
+                    },
+                    {
+                      "type": "int",
+                      "name": "skin",
+                      "value": 2
+                    },
+                    {
+                      "type": "int",
+                      "name": "max_hp",
+                      "value": 10
+                    },
+                    {
+                      "type": "int",
+                      "name": "hp",
+                      "value": 10
+                    },
+                    {
+                      "type": "int",
+                      "name": "max_tp",
+                      "value": 10
+                    },
+                    {
+                      "type": "int",
+                      "name": "tp",
+                      "value": 10
+                    },
+                    {
+                      "type": "protocol/net/server::EquipmentMapInfo",
+                      "name": "equipment",
+                      "children": [
+                        {
+                          "type": "int",
+                          "name": "boots",
+                          "value": 0
+                        },
+                        {
+                          "type": "int",
+                          "name": "armor",
+                          "value": 0
+                        },
+                        {
+                          "type": "int",
+                          "name": "hat",
+                          "value": 0
+                        },
+                        {
+                          "type": "int",
+                          "name": "shield",
+                          "value": 0
+                        },
+                        {
+                          "type": "int",
+                          "name": "weapon",
+                          "value": 0
+                        }
+                      ]
+                    },
+                    {
+                      "type": "SitState",
+                      "name": "sit_state",
+                      "value": 0
+                    },
+                    {
+                      "type": "bool",
+                      "name": "invisible",
+                      "value": false
+                    },
+                    {
+                      "name": "warp_effect",
+                      "optional": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "[]protocol/net/server::NpcMapInfo",
+              "name": "npcs",
+              "children": [
+                {
+                  "type": "protocol/net/server::NpcMapInfo",
+                  "children": [
+                    {
+                      "type": "int",
+                      "name": "index",
+                      "value": 1
+                    },
+                    {
+                      "type": "int",
+                      "name": "id",
+                      "value": 268
+                    },
+                    {
+                      "type": "protocol::Coords",
+                      "name": "coords",
+                      "children": [
+                        {
+                          "type": "int",
+                          "name": "x",
+                          "value": 6
+                        },
+                        {
+                          "type": "int",
+                          "name": "y",
+                          "value": 5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Direction",
+                      "name": "direction",
+                      "value": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "[]protocol/net/server::ItemMapInfo",
+              "name": "items"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

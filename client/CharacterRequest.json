@@ -1,0 +1,12 @@
+{
+  "family": "Character",
+  "action": "Request",
+  "expected": "TkVX/w==",
+  "properties": [
+    {
+      "type": "string",
+      "name": "request_string",
+      "value": "NEW"
+    }
+  ]
+}

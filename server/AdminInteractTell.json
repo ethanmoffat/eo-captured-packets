@@ -1,0 +1,193 @@
+{
+  "family": "AdminInteract",
+  "action": "Tell",
+  "expected": "Y2FwdHVyZWFjY/8m/v7+/wH+/v7/RP7+/gG//hb+GP5x/nH+C/4L/gL+Af4B/gP+A/4B/gH+Af4B/gb+B/4B/gH+Af5l/gH+Af4iSA==",
+  "properties": [
+    {
+      "type": "string",
+      "name": "name",
+      "value": "captureacc"
+    },
+    {
+      "type": "int",
+      "name": "usage",
+      "value": 37
+    },
+    {
+      "type": "int",
+      "name": "exp",
+      "value": 67
+    },
+    {
+      "type": "int",
+      "name": "level",
+      "value": 0
+    },
+    {
+      "type": "int",
+      "name": "map_id",
+      "value": 190
+    },
+    {
+      "type": "protocol/net/server::BigCoords",
+      "name": "map_coords",
+      "children": [
+        {
+          "type": "int",
+          "name": "x",
+          "value": 21
+        },
+        {
+          "type": "int",
+          "name": "y",
+          "value": 23
+        }
+      ]
+    },
+    {
+      "type": "protocol/net/server::CharacterStatsInfoLookup",
+      "name": "stats",
+      "children": [
+        {
+          "type": "int",
+          "name": "hp",
+          "value": 112
+        },
+        {
+          "type": "int",
+          "name": "max_hp",
+          "value": 112
+        },
+        {
+          "type": "int",
+          "name": "tp",
+          "value": 10
+        },
+        {
+          "type": "int",
+          "name": "max_tp",
+          "value": 10
+        },
+        {
+          "type": "protocol/net/server::CharacterBaseStats",
+          "name": "base_stats",
+          "children": [
+            {
+              "type": "int",
+              "name": "str",
+              "value": 1
+            },
+            {
+              "type": "int",
+              "name": "intl",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "wis",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "agi",
+              "value": 2
+            },
+            {
+              "type": "int",
+              "name": "con",
+              "value": 2
+            },
+            {
+              "type": "int",
+              "name": "cha",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "type": "protocol/net/server::CharacterSecondaryStatsInfoLookup",
+          "name": "secondary_stats",
+          "children": [
+            {
+              "type": "int",
+              "name": "max_damage",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "min_damage",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "accuracy",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "evade",
+              "value": 5
+            },
+            {
+              "type": "int",
+              "name": "armor",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "type": "protocol/net/server::CharacterElementalStats",
+          "name": "elemental_stats",
+          "children": [
+            {
+              "type": "int",
+              "name": "light",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "dark",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "fire",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "water",
+              "value": 100
+            },
+            {
+              "type": "int",
+              "name": "earth",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "wind",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "protocol/net::Weight",
+      "name": "weight",
+      "children": [
+        {
+          "type": "int",
+          "name": "current",
+          "value": 33
+        },
+        {
+          "type": "int",
+          "name": "max",
+          "value": 71
+        }
+      ]
+    }
+  ]
+}

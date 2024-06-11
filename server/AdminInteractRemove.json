@@ -1,0 +1,12 @@
+{
+  "family": "AdminInteract",
+  "action": "Remove",
+  "expected": "WAI=",
+  "properties": [
+    {
+      "type": "int",
+      "name": "player_id",
+      "value": 340
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "family": "Chest",
+  "action": "Take",
+  "expected": "CAWR/g==",
+  "properties": [
+    {
+      "type": "protocol::Coords",
+      "name": "coords",
+      "children": [
+        {
+          "type": "int",
+          "name": "x",
+          "value": 7
+        },
+        {
+          "type": "int",
+          "name": "y",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "type": "int",
+      "name": "take_item_id",
+      "value": 144
+    }
+  ]
+}

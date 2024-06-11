@@ -1,0 +1,27 @@
+{
+  "family": "Quest",
+  "action": "List",
+  "expected": "AwL+",
+  "properties": [
+    {
+      "type": "QuestPage",
+      "name": "page",
+      "value": 2
+    },
+    {
+      "type": "int",
+      "name": "quests_count",
+      "value": 1
+    },
+    {
+      "type": "protocol/net/server::QuestListPageDataHistory",
+      "name": "page_data",
+      "children": [
+        {
+          "type": "[]string",
+          "name": "completed_quests"
+        }
+      ]
+    }
+  ]
+}

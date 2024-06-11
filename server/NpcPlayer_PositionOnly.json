@@ -1,0 +1,60 @@
+{
+  "family": "Npc",
+  "action": "Player",
+  "expected": "AgcFA////w==",
+  "properties": [
+    {
+      "type": "[]protocol/net/server::NpcUpdatePosition",
+      "name": "positions",
+      "children": [
+        {
+          "type": "protocol/net/server::NpcUpdatePosition",
+          "children": [
+            {
+              "type": "int",
+              "name": "npc_index",
+              "value": 1
+            },
+            {
+              "type": "protocol::Coords",
+              "name": "coords",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "x",
+                  "value": 6
+                },
+                {
+                  "type": "int",
+                  "name": "y",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "type": "Direction",
+              "name": "direction",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "[]protocol/net/server::NpcUpdateAttack",
+      "name": "attacks"
+    },
+    {
+      "type": "[]protocol/net/server::NpcUpdateChat",
+      "name": "chats"
+    },
+    {
+      "name": "hp",
+      "optional": true
+    },
+    {
+      "name": "tp",
+      "optional": true
+    }
+  ]
+}

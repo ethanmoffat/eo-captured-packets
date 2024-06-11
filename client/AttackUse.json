@@ -1,0 +1,17 @@
+{
+  "family": "Attack",
+  "action": "Use",
+  "expected": "AWteNw==",
+  "properties": [
+    {
+      "type": "Direction",
+      "name": "direction",
+      "value": 0
+    },
+    {
+      "type": "int",
+      "name": "timestamp",
+      "value": 3480121
+    }
+  ]
+}

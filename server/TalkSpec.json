@@ -1,0 +1,12 @@
+{
+  "family": "Talk",
+  "action": "Spec",
+  "expected": "dnVsdC1y",
+  "properties": [
+    {
+      "type": "string",
+      "name": "admin_name",
+      "value": "vult-r"
+    }
+  ]
+}

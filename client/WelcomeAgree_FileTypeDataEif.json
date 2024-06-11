@@ -1,0 +1,28 @@
+{
+  "family": "Welcome",
+  "action": "Agree",
+  "expected": "AxhRAg==",
+  "properties": [
+    {
+      "type": "FileType",
+      "name": "file_type",
+      "value": 2
+    },
+    {
+      "type": "int",
+      "name": "session_id",
+      "value": 20263
+    },
+    {
+      "type": "protocol/net/client::WelcomeAgreeFileTypeDataEif",
+      "name": "file_type_data",
+      "children": [
+        {
+          "type": "int",
+          "name": "file_id",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}

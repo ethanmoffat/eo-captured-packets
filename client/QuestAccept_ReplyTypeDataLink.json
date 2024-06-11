@@ -1,0 +1,43 @@
+{
+  "family": "Quest",
+  "action": "Accept",
+  "expected": "B3g/gh7+Hv4DAg==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "session_id",
+      "value": 30113
+    },
+    {
+      "type": "int",
+      "name": "dialog_id",
+      "value": 32699
+    },
+    {
+      "type": "int",
+      "name": "quest_id",
+      "value": 29
+    },
+    {
+      "type": "int",
+      "name": "npc_index",
+      "value": 29
+    },
+    {
+      "type": "DialogReply",
+      "name": "reply_type",
+      "value": 2
+    },
+    {
+      "type": "protocol/net/client::QuestAcceptReplyTypeDataLink",
+      "name": "reply_type_data",
+      "children": [
+        {
+          "type": "int",
+          "name": "action",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "family": "Party",
+  "action": "Agree",
+  "expected": "SAJW",
+  "properties": [
+    {
+      "type": "int",
+      "name": "player_id",
+      "value": 324
+    },
+    {
+      "type": "int",
+      "name": "hp_percentage",
+      "value": 85
+    }
+  ]
+}

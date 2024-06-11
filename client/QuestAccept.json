@@ -1,0 +1,32 @@
+{
+  "family": "Quest",
+  "action": "Accept",
+  "expected": "bcxJTx7+Hv4CAQ==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "session_id",
+      "value": 51467
+    },
+    {
+      "type": "int",
+      "name": "dialog_id",
+      "value": 19806
+    },
+    {
+      "type": "int",
+      "name": "quest_id",
+      "value": 29
+    },
+    {
+      "type": "int",
+      "name": "npc_index",
+      "value": 29
+    },
+    {
+      "type": "DialogReply",
+      "name": "reply_type",
+      "value": 1
+    }
+  ]
+}

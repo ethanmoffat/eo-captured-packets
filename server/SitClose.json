@@ -1,0 +1,28 @@
+{
+  "family": "Sit",
+  "action": "Close",
+  "expected": "OAIECQ==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "player_id",
+      "value": 308
+    },
+    {
+      "type": "protocol::Coords",
+      "name": "coords",
+      "children": [
+        {
+          "type": "int",
+          "name": "x",
+          "value": 3
+        },
+        {
+          "type": "int",
+          "name": "y",
+          "value": 8
+        }
+      ]
+    }
+  ]
+}

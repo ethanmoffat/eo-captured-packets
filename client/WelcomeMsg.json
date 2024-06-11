@@ -1,0 +1,17 @@
+{
+  "family": "Welcome",
+  "action": "Msg",
+  "expected": "9Ev+Rv7+/g==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "session_id",
+      "value": 18965
+    },
+    {
+      "type": "int",
+      "name": "character_id",
+      "value": 69
+    }
+  ]
+}

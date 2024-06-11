@@ -1,0 +1,12 @@
+{
+  "family": "Trade",
+  "action": "Accept",
+  "expected": "AWQC",
+  "properties": [
+    {
+      "type": "int",
+      "name": "player_id",
+      "value": 352
+    }
+  ]
+}

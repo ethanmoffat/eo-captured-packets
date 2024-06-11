@@ -1,0 +1,47 @@
+{
+  "family": "Account",
+  "action": "Create",
+  "expected": "Ep//Y2FwdHVyZWFjY/9jYXB0dXJlYWNjcHf/Y2FwdHVyZSBhY2NvdW50/3VzYf9jYXB0dXJlYWNjQG1vZmZhdC5pb/9CRUFTVE1PREX/MTc4MzE4NjA5MP8=",
+  "properties": [
+    {
+      "type": "int",
+      "name": "session_id",
+      "value": 39991
+    },
+    {
+      "type": "string",
+      "name": "username",
+      "value": "captureacc"
+    },
+    {
+      "type": "string",
+      "name": "password",
+      "value": "captureaccpw"
+    },
+    {
+      "type": "string",
+      "name": "full_name",
+      "value": "capture account"
+    },
+    {
+      "type": "string",
+      "name": "location",
+      "value": "usa"
+    },
+    {
+      "type": "string",
+      "name": "email",
+      "value": "captureacc@moffat.io"
+    },
+    {
+      "type": "string",
+      "name": "computer",
+      "value": "BEASTMODE"
+    },
+    {
+      "type": "string",
+      "name": "hdid",
+      "value": "1783186090"
+    }
+  ]
+}

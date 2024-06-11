@@ -1,0 +1,17 @@
+{
+  "family": "Trade",
+  "action": "Agree",
+  "expected": "ZAIC",
+  "properties": [
+    {
+      "type": "int",
+      "name": "partner_player_id",
+      "value": 352
+    },
+    {
+      "type": "bool",
+      "name": "agree",
+      "value": true
+    }
+  ]
+}

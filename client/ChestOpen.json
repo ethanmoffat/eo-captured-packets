@@ -1,0 +1,23 @@
+{
+  "family": "Chest",
+  "action": "Open",
+  "expected": "CAU=",
+  "properties": [
+    {
+      "type": "protocol::Coords",
+      "name": "coords",
+      "children": [
+        {
+          "type": "int",
+          "name": "x",
+          "value": 7
+        },
+        {
+          "type": "int",
+          "name": "y",
+          "value": 4
+        }
+      ]
+    }
+  ]
+}

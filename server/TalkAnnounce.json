@@ -1,0 +1,17 @@
+{
+  "family": "Talk",
+  "action": "Announce",
+  "expected": "dnVsdC1y/2Fubm91bmNlbWVudA==",
+  "properties": [
+    {
+      "type": "string",
+      "name": "player_name",
+      "value": "vult-r"
+    },
+    {
+      "type": "string",
+      "name": "message",
+      "value": "announcement"
+    }
+  ]
+}

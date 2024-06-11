@@ -1,0 +1,49 @@
+{
+  "family": "Npc",
+  "action": "Agree",
+  "expected": "AhMI/ggaAQ==",
+  "properties": [
+    {
+      "type": "[]protocol/net/server::NpcMapInfo",
+      "name": "npcs",
+      "children": [
+        {
+          "type": "protocol/net/server::NpcMapInfo",
+          "children": [
+            {
+              "type": "int",
+              "name": "index",
+              "value": 18
+            },
+            {
+              "type": "int",
+              "name": "id",
+              "value": 7
+            },
+            {
+              "type": "protocol::Coords",
+              "name": "coords",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "x",
+                  "value": 7
+                },
+                {
+                  "type": "int",
+                  "name": "y",
+                  "value": 25
+                }
+              ]
+            },
+            {
+              "type": "Direction",
+              "name": "direction",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "family": "Login",
+  "action": "Reply",
+  "expected": "BP4BAf8=",
+  "properties": [
+    {
+      "type": "LoginReply",
+      "name": "reply_code",
+      "value": 3
+    },
+    {
+      "type": "protocol/net/server::LoginReplyReplyCodeDataOk",
+      "name": "reply_code_data",
+      "children": [
+        {
+          "type": "[]protocol/net/server::CharacterSelectionListEntry",
+          "name": "characters"
+        }
+      ]
+    }
+  ]
+}

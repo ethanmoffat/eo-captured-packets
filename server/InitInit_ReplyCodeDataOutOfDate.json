@@ -1,0 +1,39 @@
+{
+    "family": "Init",
+    "action": "Init",
+    "expected": "AQEBHQ==",
+    "properties": [
+        {
+            "type": "InitReply",
+            "name": "reply_code",
+            "value": 1
+        },
+        {
+            "type": "protocol/net/server::InitInitReplyCodeDataOutOfDate",
+            "name": "reply_code_data",
+            "children": [
+                {
+                    "type": "protocol/net::Version",
+                    "name": "version",
+                    "children": [
+                        {
+                            "type": "int",
+                            "name": "major",
+                            "value": 0
+                        },
+                        {
+                            "type": "int",
+                            "name": "minor",
+                            "value": 0
+                        },
+                        {
+                            "type": "int",
+                            "name": "patch",
+                            "value": 28
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

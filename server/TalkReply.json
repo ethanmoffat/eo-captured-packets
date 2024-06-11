@@ -1,0 +1,17 @@
+{
+  "family": "Talk",
+  "action": "Reply",
+  "expected": "Av52dWx0LXI=",
+  "properties": [
+    {
+      "type": "TalkReply",
+      "name": "reply_code",
+      "value": 1
+    },
+    {
+      "type": "string",
+      "name": "name",
+      "value": "vult-r"
+    }
+  ]
+}

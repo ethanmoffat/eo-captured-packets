@@ -1,0 +1,23 @@
+{
+  "family": "Account",
+  "action": "Reply",
+  "expected": "Ep+1T0s=",
+  "properties": [
+    {
+      "type": "AccountReply",
+      "name": "reply_code",
+      "value": 39991
+    },
+    {
+      "type": "protocol/net/server::AccountReplyReplyCodeDataDefault",
+      "name": "reply_code_data",
+      "children": [
+        {
+          "type": "int",
+          "name": "sequence_start",
+          "value": 180
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "family": "Players",
+  "action": "Ping",
+  "expected": "dnVsdC1y",
+  "properties": [
+    {
+      "type": "string",
+      "name": "name",
+      "value": "vult-r"
+    }
+  ]
+}

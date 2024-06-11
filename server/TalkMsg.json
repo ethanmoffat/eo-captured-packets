@@ -1,0 +1,17 @@
+{
+  "family": "Talk",
+  "action": "Msg",
+  "expected": "U2VydmVy/1RoaXMgY2hhbm5lbCBpcyB0ZW1wb3JhcnkgZGlzYWJsZWQ=",
+  "properties": [
+    {
+      "type": "string",
+      "name": "player_name",
+      "value": "Server"
+    },
+    {
+      "type": "string",
+      "name": "message",
+      "value": "This channel is temporary disabled"
+    }
+  ]
+}

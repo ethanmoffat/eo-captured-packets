@@ -1,0 +1,12 @@
+{
+  "family": "Trade",
+  "action": "Close",
+  "expected": "ZAI=",
+  "properties": [
+    {
+      "type": "int",
+      "name": "partner_player_id",
+      "value": 352
+    }
+  ]
+}

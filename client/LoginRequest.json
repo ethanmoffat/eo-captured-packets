@@ -1,0 +1,17 @@
+{
+  "family": "Login",
+  "action": "Request",
+  "expected": "Y2FwdHVyZWFjY/9jYXB0dXJlYWNjcHf/",
+  "properties": [
+    {
+      "type": "string",
+      "name": "username",
+      "value": "captureacc"
+    },
+    {
+      "type": "string",
+      "name": "password",
+      "value": "captureaccpw"
+    }
+  ]
+}

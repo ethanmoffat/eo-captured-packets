@@ -1,0 +1,20 @@
+{
+  "family": "Range",
+  "action": "Request",
+  "expected": "/xY=",
+  "properties": [
+    {
+      "type": "[]int",
+      "name": "player_ids"
+    },
+    {
+      "type": "[]int",
+      "name": "npc_indexes",
+      "children": [
+        {
+          "value": 21
+        }
+      ]
+    }
+  ]
+}

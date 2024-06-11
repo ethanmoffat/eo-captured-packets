@@ -1,0 +1,16 @@
+{
+  "family": "NpcRange",
+  "action": "Request",
+  "expected": "Av8T",
+  "properties": [
+    {
+      "type": "[]int",
+      "name": "npc_indexes",
+      "children": [
+        {
+          "value": 18
+        }
+      ]
+    }
+  ]
+}

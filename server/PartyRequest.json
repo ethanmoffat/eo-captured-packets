@@ -1,0 +1,22 @@
+{
+  "family": "Party",
+  "action": "Request",
+  "expected": "AmQCdnVsdC1y",
+  "properties": [
+    {
+      "type": "PartyRequestType",
+      "name": "request_type",
+      "value": 1
+    },
+    {
+      "type": "int",
+      "name": "inviter_player_id",
+      "value": 352
+    },
+    {
+      "type": "string",
+      "name": "player_name",
+      "value": "vult-r"
+    }
+  ]
+}

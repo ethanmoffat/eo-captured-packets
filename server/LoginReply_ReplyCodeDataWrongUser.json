@@ -1,0 +1,16 @@
+{
+  "family": "Login",
+  "action": "Reply",
+  "expected": "Av5OTw==",
+  "properties": [
+    {
+      "type": "LoginReply",
+      "name": "reply_code",
+      "value": 1
+    },
+    {
+      "type": "protocol/net/server::LoginReplyReplyCodeDataWrongUser",
+      "name": "reply_code_data"
+    }
+  ]
+}

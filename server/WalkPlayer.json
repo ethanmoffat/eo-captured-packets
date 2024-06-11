@@ -1,0 +1,33 @@
+{
+  "family": "Walk",
+  "action": "Player",
+  "expected": "ZAIDGRg=",
+  "properties": [
+    {
+      "type": "int",
+      "name": "player_id",
+      "value": 352
+    },
+    {
+      "type": "Direction",
+      "name": "direction",
+      "value": 2
+    },
+    {
+      "type": "protocol::Coords",
+      "name": "coords",
+      "children": [
+        {
+          "type": "int",
+          "name": "x",
+          "value": 24
+        },
+        {
+          "type": "int",
+          "name": "y",
+          "value": 23
+        }
+      ]
+    }
+  ]
+}

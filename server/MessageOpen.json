@@ -1,0 +1,12 @@
+{
+  "family": "Message",
+  "action": "Open",
+  "expected": "UXVlc3QgcmV3YXJkIDogNjAwIEVYUA==",
+  "properties": [
+    {
+      "type": "string",
+      "name": "message",
+      "value": "Quest reward : 600 EXP"
+    }
+  ]
+}

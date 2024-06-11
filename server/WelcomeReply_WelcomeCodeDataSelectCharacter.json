@@ -1,0 +1,430 @@
+{
+  "family": "Welcome",
+  "action": "Reply",
+  "expected": "Av4YUUb+/v7B/vkSTbGOA/77LCQi7wIW/gH+MwIwsrguIf6bTrLeCf5jYXB0dXJlYWNj/////wIwICABAQH+/v4B/v7+C/4L/gv+C/4V/gH+Af7yBAH+Af4B/gH+Af4B/gH+Af4B/gH+Af4B/gH+Af4B/gH+Af4B/gH+Af4B/gH+Af4B/gH+Af4BTf4F/hkZC/4L/gL+Av77/w==",
+  "properties": [
+    {
+      "type": "WelcomeCode",
+      "name": "welcome_code",
+      "value": 1
+    },
+    {
+      "type": "protocol/net/server::WelcomeReplyWelcomeCodeDataSelectCharacter",
+      "name": "welcome_code_data",
+      "children": [
+        {
+          "type": "int",
+          "name": "session_id",
+          "value": 20263
+        },
+        {
+          "type": "int",
+          "name": "character_id",
+          "value": 69
+        },
+        {
+          "type": "int",
+          "name": "map_id",
+          "value": 192
+        },
+        {
+          "type": "[]int",
+          "name": "map_rid",
+          "children": [
+            {
+              "value": 4549
+            },
+            {
+              "value": 44604
+            }
+          ]
+        },
+        {
+          "type": "int",
+          "name": "map_file_size",
+          "value": 647
+        },
+        {
+          "type": "[]int",
+          "name": "eif_rid",
+          "children": [
+            {
+              "value": 11129
+            },
+            {
+              "value": 8384
+            }
+          ]
+        },
+        {
+          "type": "int",
+          "name": "eif_length",
+          "value": 491
+        },
+        {
+          "type": "[]int",
+          "name": "enf_rid",
+          "children": [
+            {
+              "value": 21
+            },
+            {
+              "value": 0
+            }
+          ]
+        },
+        {
+          "type": "int",
+          "name": "enf_length",
+          "value": 303
+        },
+        {
+          "type": "[]int",
+          "name": "esf_rid",
+          "children": [
+            {
+              "value": 44828
+            },
+            {
+              "value": 11568
+            }
+          ]
+        },
+        {
+          "type": "int",
+          "name": "esf_length",
+          "value": 32
+        },
+        {
+          "type": "[]int",
+          "name": "ecf_rid",
+          "children": [
+            {
+              "value": 19635
+            },
+            {
+              "value": 56090
+            }
+          ]
+        },
+        {
+          "type": "int",
+          "name": "ecf_length",
+          "value": 8
+        },
+        {
+          "type": "string",
+          "name": "name",
+          "value": "captureacc"
+        },
+        {
+          "type": "string",
+          "name": "title",
+          "value": ""
+        },
+        {
+          "type": "string",
+          "name": "guild_name",
+          "value": ""
+        },
+        {
+          "type": "string",
+          "name": "guild_rank_name",
+          "value": ""
+        },
+        {
+          "type": "int",
+          "name": "class_id",
+          "value": 1
+        },
+        {
+          "type": "string",
+          "name": "guild_tag",
+          "value": "0  "
+        },
+        {
+          "type": "AdminLevel",
+          "name": "admin",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "name": "level",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "name": "experience",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "name": "usage",
+          "value": 0
+        },
+        {
+          "type": "protocol/net/server::CharacterStatsWelcome",
+          "name": "stats",
+          "children": [
+            {
+              "type": "int",
+              "name": "hp",
+              "value": 10
+            },
+            {
+              "type": "int",
+              "name": "max_hp",
+              "value": 10
+            },
+            {
+              "type": "int",
+              "name": "tp",
+              "value": 10
+            },
+            {
+              "type": "int",
+              "name": "max_tp",
+              "value": 10
+            },
+            {
+              "type": "int",
+              "name": "max_sp",
+              "value": 20
+            },
+            {
+              "type": "int",
+              "name": "stat_points",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "skill_points",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "karma",
+              "value": 1000
+            },
+            {
+              "type": "protocol/net/server::CharacterSecondaryStats",
+              "name": "secondary",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "min_damage",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "name": "max_damage",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "name": "accuracy",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "name": "evade",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "name": "armor",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "type": "protocol/net/server::CharacterBaseStatsWelcome",
+              "name": "base",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "str",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "name": "wis",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "name": "intl",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "name": "agi",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "name": "con",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "name": "cha",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "protocol/net/server::EquipmentWelcome",
+          "name": "equipment",
+          "children": [
+            {
+              "type": "int",
+              "name": "boots",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "gloves",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "accessory",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "armor",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "belt",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "necklace",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "hat",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "shield",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "weapon",
+              "value": 0
+            },
+            {
+              "type": "[]int",
+              "name": "ring",
+              "children": [
+                {
+                  "value": 0
+                },
+                {
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "type": "[]int",
+              "name": "armlet",
+              "children": [
+                {
+                  "value": 0
+                },
+                {
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "type": "[]int",
+              "name": "bracer",
+              "children": [
+                {
+                  "value": 0
+                },
+                {
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "int",
+          "name": "guild_rank",
+          "value": 0
+        },
+        {
+          "type": "protocol/net/server::ServerSettings",
+          "name": "settings",
+          "children": [
+            {
+              "type": "int",
+              "name": "jail_map",
+              "value": 76
+            },
+            {
+              "type": "int",
+              "name": "rescue_map",
+              "value": 4
+            },
+            {
+              "type": "protocol::Coords",
+              "name": "rescue_coords",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "x",
+                  "value": 24
+                },
+                {
+                  "type": "int",
+                  "name": "y",
+                  "value": 24
+                }
+              ]
+            },
+            {
+              "type": "int",
+              "name": "spy_and_light_guide_flood_rate",
+              "value": 10
+            },
+            {
+              "type": "int",
+              "name": "guardian_flood_rate",
+              "value": 10
+            },
+            {
+              "type": "int",
+              "name": "game_master_flood_rate",
+              "value": 1
+            },
+            {
+              "type": "int",
+              "name": "high_game_master_flood_rate",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "type": "LoginMessageCode",
+          "name": "login_message_code",
+          "value": 250
+        }
+      ]
+    }
+  ]
+}

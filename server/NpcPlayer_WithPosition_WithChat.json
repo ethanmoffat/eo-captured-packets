@@ -1,0 +1,263 @@
+{
+  "family": "Npc",
+  "action": "Player",
+  "expected": "HCAcAiUVHgEmFh8BJxYeAigSHQIpEBsDLhMVAv//LhRDYW4gYW55b25lIGhlbHAgbWU//w==",
+  "properties": [
+    {
+      "type": "[]protocol/net/server::NpcUpdatePosition",
+      "name": "positions",
+      "children": [
+        {
+          "type": "protocol/net/server::NpcUpdatePosition",
+          "children": [
+            {
+              "type": "int",
+              "name": "npc_index",
+              "value": 27
+            },
+            {
+              "type": "protocol::Coords",
+              "name": "coords",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "x",
+                  "value": 31
+                },
+                {
+                  "type": "int",
+                  "name": "y",
+                  "value": 27
+                }
+              ]
+            },
+            {
+              "type": "Direction",
+              "name": "direction",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "type": "protocol/net/server::NpcUpdatePosition",
+          "children": [
+            {
+              "type": "int",
+              "name": "npc_index",
+              "value": 36
+            },
+            {
+              "type": "protocol::Coords",
+              "name": "coords",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "x",
+                  "value": 20
+                },
+                {
+                  "type": "int",
+                  "name": "y",
+                  "value": 29
+                }
+              ]
+            },
+            {
+              "type": "Direction",
+              "name": "direction",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "type": "protocol/net/server::NpcUpdatePosition",
+          "children": [
+            {
+              "type": "int",
+              "name": "npc_index",
+              "value": 37
+            },
+            {
+              "type": "protocol::Coords",
+              "name": "coords",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "x",
+                  "value": 21
+                },
+                {
+                  "type": "int",
+                  "name": "y",
+                  "value": 30
+                }
+              ]
+            },
+            {
+              "type": "Direction",
+              "name": "direction",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "type": "protocol/net/server::NpcUpdatePosition",
+          "children": [
+            {
+              "type": "int",
+              "name": "npc_index",
+              "value": 38
+            },
+            {
+              "type": "protocol::Coords",
+              "name": "coords",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "x",
+                  "value": 21
+                },
+                {
+                  "type": "int",
+                  "name": "y",
+                  "value": 29
+                }
+              ]
+            },
+            {
+              "type": "Direction",
+              "name": "direction",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "type": "protocol/net/server::NpcUpdatePosition",
+          "children": [
+            {
+              "type": "int",
+              "name": "npc_index",
+              "value": 39
+            },
+            {
+              "type": "protocol::Coords",
+              "name": "coords",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "x",
+                  "value": 17
+                },
+                {
+                  "type": "int",
+                  "name": "y",
+                  "value": 28
+                }
+              ]
+            },
+            {
+              "type": "Direction",
+              "name": "direction",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "type": "protocol/net/server::NpcUpdatePosition",
+          "children": [
+            {
+              "type": "int",
+              "name": "npc_index",
+              "value": 40
+            },
+            {
+              "type": "protocol::Coords",
+              "name": "coords",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "x",
+                  "value": 15
+                },
+                {
+                  "type": "int",
+                  "name": "y",
+                  "value": 26
+                }
+              ]
+            },
+            {
+              "type": "Direction",
+              "name": "direction",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "type": "protocol/net/server::NpcUpdatePosition",
+          "children": [
+            {
+              "type": "int",
+              "name": "npc_index",
+              "value": 45
+            },
+            {
+              "type": "protocol::Coords",
+              "name": "coords",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "x",
+                  "value": 18
+                },
+                {
+                  "type": "int",
+                  "name": "y",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "Direction",
+              "name": "direction",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "[]protocol/net/server::NpcUpdateAttack",
+      "name": "attacks"
+    },
+    {
+      "type": "[]protocol/net/server::NpcUpdateChat",
+      "name": "chats",
+      "children": [
+        {
+          "type": "protocol/net/server::NpcUpdateChat",
+          "children": [
+            {
+              "type": "int",
+              "name": "npc_index",
+              "value": 45
+            },
+            {
+              "type": "string",
+              "name": "message",
+              "value": "Can anyone help me?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "hp",
+      "optional": true
+    },
+    {
+      "name": "tp",
+      "optional": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "family": "Party",
+  "action": "Take",
+  "expected": "Aw==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "members_count",
+      "value": 2
+    }
+  ]
+}

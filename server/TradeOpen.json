@@ -1,0 +1,27 @@
+{
+  "family": "Trade",
+  "action": "Open",
+  "expected": "SAJjYXB0dXJlYWNj/2QCdnVsdC1y/w==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "partner_player_id",
+      "value": 324
+    },
+    {
+      "type": "string",
+      "name": "partner_player_name",
+      "value": "captureacc"
+    },
+    {
+      "type": "int",
+      "name": "your_player_id",
+      "value": 352
+    },
+    {
+      "type": "string",
+      "name": "your_player_name",
+      "value": "vult-r"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "family": "Character",
+  "action": "Reply",
+  "expected": "ry5PSw==",
+  "properties": [
+    {
+      "type": "CharacterReply",
+      "name": "reply_code",
+      "value": 11559
+    },
+    {
+      "type": "protocol/net/server::CharacterReplyReplyCodeDataDefault",
+      "name": "reply_code_data"
+    }
+  ]
+}

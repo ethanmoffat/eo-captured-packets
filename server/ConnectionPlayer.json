@@ -1,0 +1,17 @@
+{
+  "family": "Connection",
+  "action": "Player",
+  "expected": "igLT",
+  "properties": [
+    {
+      "type": "int",
+      "name": "seq1",
+      "value": 390
+    },
+    {
+      "type": "int",
+      "name": "seq2",
+      "value": 210
+    }
+  ]
+}

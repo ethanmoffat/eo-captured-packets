@@ -1,0 +1,17 @@
+{
+  "family": "Quest",
+  "action": "Use",
+  "expected": "Lv4B/g==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "npc_index",
+      "value": 45
+    },
+    {
+      "type": "int",
+      "name": "quest_id",
+      "value": 0
+    }
+  ]
+}

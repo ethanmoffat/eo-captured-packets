@@ -1,0 +1,17 @@
+{
+  "family": "Trade",
+  "action": "Request",
+  "expected": "i2QCdnVsdC1y",
+  "properties": [
+    {
+      "type": "int",
+      "name": "partner_player_id",
+      "value": 352
+    },
+    {
+      "type": "string",
+      "name": "partner_player_name",
+      "value": "vult-r"
+    }
+  ]
+}

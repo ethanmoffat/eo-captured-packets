@@ -1,0 +1,16 @@
+{
+  "family": "Account",
+  "action": "Reply",
+  "expected": "CP5OTw==",
+  "properties": [
+    {
+      "type": "AccountReply",
+      "name": "reply_code",
+      "value": 7
+    },
+    {
+      "type": "protocol/net/server::AccountReplyReplyCodeDataRequestDenied",
+      "name": "reply_code_data"
+    }
+  ]
+}

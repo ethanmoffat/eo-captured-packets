@@ -1,0 +1,34 @@
+{
+  "family": "Chair",
+  "action": "Request",
+  "expected": "AgQL",
+  "properties": [
+    {
+      "type": "SitAction",
+      "name": "sit_action",
+      "value": 1
+    },
+    {
+      "type": "protocol/net/client::ChairRequestSitActionDataSit",
+      "name": "sit_action_data",
+      "children": [
+        {
+          "type": "protocol::Coords",
+          "name": "coords",
+          "children": [
+            {
+              "type": "int",
+              "name": "x",
+              "value": 3
+            },
+            {
+              "type": "int",
+              "name": "y",
+              "value": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

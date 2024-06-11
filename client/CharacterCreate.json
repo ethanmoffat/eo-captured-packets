@@ -1,0 +1,37 @@
+{
+  "family": "Character",
+  "action": "Create",
+  "expected": "ry4C/gj+CP4D/v9jYXB0dXJlYWNj/w==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "session_id",
+      "value": 11559
+    },
+    {
+      "type": "Gender",
+      "name": "gender",
+      "value": 1
+    },
+    {
+      "type": "int",
+      "name": "hair_style",
+      "value": 0
+    },
+    {
+      "type": "int",
+      "name": "hair_color",
+      "value": 0
+    },
+    {
+      "type": "int",
+      "name": "skin",
+      "value": 0
+    },
+    {
+      "type": "string",
+      "name": "name",
+      "value": "captureacc"
+    }
+  ]
+}

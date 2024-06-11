@@ -1,0 +1,73 @@
+{
+  "family": "Party",
+  "action": "Create",
+  "expected": "SAICAUxjYXB0dXJlYWNj/2QCAQZldnVsdC1y/w==",
+  "properties": [
+    {
+      "type": "[]protocol/net/server::PartyMember",
+      "name": "members",
+      "children": [
+        {
+          "type": "protocol/net/server::PartyMember",
+          "children": [
+            {
+              "type": "int",
+              "name": "player_id",
+              "value": 324
+            },
+            {
+              "type": "bool",
+              "name": "leader",
+              "value": true
+            },
+            {
+              "type": "int",
+              "name": "level",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "hp_percentage",
+              "value": 75
+            },
+            {
+              "type": "string",
+              "name": "name",
+              "value": "captureacc"
+            }
+          ]
+        },
+        {
+          "type": "protocol/net/server::PartyMember",
+          "children": [
+            {
+              "type": "int",
+              "name": "player_id",
+              "value": 352
+            },
+            {
+              "type": "bool",
+              "name": "leader",
+              "value": false
+            },
+            {
+              "type": "int",
+              "name": "level",
+              "value": 5
+            },
+            {
+              "type": "int",
+              "name": "hp_percentage",
+              "value": 100
+            },
+            {
+              "type": "string",
+              "name": "name",
+              "value": "vult-r"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

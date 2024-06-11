@@ -1,0 +1,12 @@
+{
+  "family": "Face",
+  "action": "Player",
+  "expected": "AQ==",
+  "properties": [
+    {
+      "type": "Direction",
+      "name": "direction",
+      "value": 0
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "family": "Trade",
+  "action": "Spec",
+  "expected": "Ag==",
+  "properties": [
+    {
+      "type": "bool",
+      "name": "agree",
+      "value": true
+    }
+  ]
+}

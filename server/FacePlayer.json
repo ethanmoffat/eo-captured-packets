@@ -1,0 +1,17 @@
+{
+  "family": "Face",
+  "action": "Player",
+  "expected": "WAIC",
+  "properties": [
+    {
+      "type": "int",
+      "name": "player_id",
+      "value": 340
+    },
+    {
+      "type": "Direction",
+      "name": "direction",
+      "value": 1
+    }
+  ]
+}

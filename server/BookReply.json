@@ -1,0 +1,72 @@
+{
+  "family": "Book",
+  "action": "Reply",
+  "expected": "dnVsdC1y/1dhbmRlcmVy/3Rlc/////9kAgICBQb/",
+  "properties": [
+    {
+      "type": "protocol/net/server::CharacterDetails",
+      "name": "details",
+      "children": [
+        {
+          "type": "string",
+          "name": "name",
+          "value": "vult-r"
+        },
+        {
+          "type": "string",
+          "name": "home",
+          "value": "Wanderer"
+        },
+        {
+          "type": "string",
+          "name": "partner",
+          "value": "tes"
+        },
+        {
+          "type": "string",
+          "name": "title",
+          "value": ""
+        },
+        {
+          "type": "string",
+          "name": "guild",
+          "value": ""
+        },
+        {
+          "type": "string",
+          "name": "guild_rank",
+          "value": ""
+        },
+        {
+          "type": "int",
+          "name": "player_id",
+          "value": 352
+        },
+        {
+          "type": "int",
+          "name": "class_id",
+          "value": 1
+        },
+        {
+          "type": "Gender",
+          "name": "gender",
+          "value": 1
+        },
+        {
+          "type": "AdminLevel",
+          "name": "admin",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "type": "CharacterIcon",
+      "name": "icon",
+      "value": 5
+    },
+    {
+      "type": "[]string",
+      "name": "quest_names"
+    }
+  ]
+}

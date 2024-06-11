@@ -1,0 +1,63 @@
+{
+  "family": "Range",
+  "action": "Reply",
+  "expected": "Af8WCP4GGwE=",
+  "properties": [
+    {
+      "type": "protocol/net/server::NearbyInfo",
+      "name": "nearby",
+      "children": [
+        {
+          "type": "[]protocol/net/server::CharacterMapInfo",
+          "name": "characters"
+        },
+        {
+          "type": "[]protocol/net/server::NpcMapInfo",
+          "name": "npcs",
+          "children": [
+            {
+              "type": "protocol/net/server::NpcMapInfo",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "index",
+                  "value": 21
+                },
+                {
+                  "type": "int",
+                  "name": "id",
+                  "value": 7
+                },
+                {
+                  "type": "protocol::Coords",
+                  "name": "coords",
+                  "children": [
+                    {
+                      "type": "int",
+                      "name": "x",
+                      "value": 5
+                    },
+                    {
+                      "type": "int",
+                      "name": "y",
+                      "value": 26
+                    }
+                  ]
+                },
+                {
+                  "type": "Direction",
+                  "name": "direction",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "[]protocol/net/server::ItemMapInfo",
+          "name": "items"
+        }
+      ]
+    }
+  ]
+}

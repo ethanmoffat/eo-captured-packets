@@ -1,0 +1,84 @@
+{
+  "family": "Quest",
+  "action": "Dialog",
+  "expected": "Ah7+Hv5tzElP/x7+R29hdCBCdXNpbmVzc/8C/kl0cyBoYXJkIGNvbGxlY3RpbmcgbmV3IGdvYXQgaG9ybnMgbm93IHRoYXQgY3luZGksIGluc2lkZSB0aGUgdmlsbGFnZSBzaG9wLCBpcyBjcmFmdGluZyBkYWdnZXJzIG91dCBvZiAyIGdvYXQgaG9ybnP/Av5Zb3UgY2FuIHBpY2t1cCBhbnkgaXRlbSBvbiB0aGUgZ3JvdW5kIGJ5IGNsaWNraW5nIG9uIGl0IHdpdGggeW91ciBsZWZ0IG1vdXNlIGJ1dHRvbi7/",
+  "properties": [
+    {
+      "type": "int",
+      "name": "behavior_id",
+      "value": 29
+    },
+    {
+      "type": "int",
+      "name": "quest_id",
+      "value": 29
+    },
+    {
+      "type": "int",
+      "name": "session_id",
+      "value": 51467
+    },
+    {
+      "type": "int",
+      "name": "dialog_id",
+      "value": 19806
+    },
+    {
+      "type": "[]protocol/net/server::DialogQuestEntry",
+      "name": "quest_entries",
+      "children": [
+        {
+          "type": "protocol/net/server::DialogQuestEntry",
+          "children": [
+            {
+              "type": "int",
+              "name": "quest_id",
+              "value": 29
+            },
+            {
+              "type": "string",
+              "name": "quest_name",
+              "value": "Goat Business"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "[]protocol/net/server::DialogEntry",
+      "name": "dialog_entries",
+      "children": [
+        {
+          "type": "protocol/net/server::DialogEntry",
+          "children": [
+            {
+              "type": "DialogEntryType",
+              "name": "entry_type",
+              "value": 1
+            },
+            {
+              "type": "string",
+              "name": "line",
+              "value": "Its hard collecting new goat horns now that cyndi, inside the village shop, is crafting daggers out of 2 goat horns"
+            }
+          ]
+        },
+        {
+          "type": "protocol/net/server::DialogEntry",
+          "children": [
+            {
+              "type": "DialogEntryType",
+              "name": "entry_type",
+              "value": 1
+            },
+            {
+              "type": "string",
+              "name": "line",
+              "value": "You can pickup any item on the ground by clicking on it with your left mouse button."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

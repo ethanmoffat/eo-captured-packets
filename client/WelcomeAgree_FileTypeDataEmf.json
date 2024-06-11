@@ -1,0 +1,28 @@
+{
+  "family": "Welcome",
+  "action": "Agree",
+  "expected": "AhhRwf4=",
+  "properties": [
+    {
+      "type": "FileType",
+      "name": "file_type",
+      "value": 1
+    },
+    {
+      "type": "int",
+      "name": "session_id",
+      "value": 20263
+    },
+    {
+      "type": "protocol/net/client::WelcomeAgreeFileTypeDataEmf",
+      "name": "file_type_data",
+      "children": [
+        {
+          "type": "int",
+          "name": "file_id",
+          "value": 192
+        }
+      ]
+    }
+  ]
+}

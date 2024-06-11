@@ -1,0 +1,324 @@
+{
+  "family": "Npc",
+  "action": "Player",
+  "expected": "CRIiAyUVHgMmEyAEKhAaAy0ZHAIuEhUC/ycCA0ACAv7+KSkCAUACAf7+KSsCAkACAf7+Kf//Bf4L/g==",
+  "properties": [
+    {
+      "type": "[]protocol/net/server::NpcUpdatePosition",
+      "name": "positions",
+      "children": [
+        {
+          "type": "protocol/net/server::NpcUpdatePosition",
+          "children": [
+            {
+              "type": "int",
+              "name": "npc_index",
+              "value": 8
+            },
+            {
+              "type": "protocol::Coords",
+              "name": "coords",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "x",
+                  "value": 17
+                },
+                {
+                  "type": "int",
+                  "name": "y",
+                  "value": 33
+                }
+              ]
+            },
+            {
+              "type": "Direction",
+              "name": "direction",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "type": "protocol/net/server::NpcUpdatePosition",
+          "children": [
+            {
+              "type": "int",
+              "name": "npc_index",
+              "value": 36
+            },
+            {
+              "type": "protocol::Coords",
+              "name": "coords",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "x",
+                  "value": 20
+                },
+                {
+                  "type": "int",
+                  "name": "y",
+                  "value": 29
+                }
+              ]
+            },
+            {
+              "type": "Direction",
+              "name": "direction",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "type": "protocol/net/server::NpcUpdatePosition",
+          "children": [
+            {
+              "type": "int",
+              "name": "npc_index",
+              "value": 37
+            },
+            {
+              "type": "protocol::Coords",
+              "name": "coords",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "x",
+                  "value": 18
+                },
+                {
+                  "type": "int",
+                  "name": "y",
+                  "value": 31
+                }
+              ]
+            },
+            {
+              "type": "Direction",
+              "name": "direction",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "type": "protocol/net/server::NpcUpdatePosition",
+          "children": [
+            {
+              "type": "int",
+              "name": "npc_index",
+              "value": 41
+            },
+            {
+              "type": "protocol::Coords",
+              "name": "coords",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "x",
+                  "value": 15
+                },
+                {
+                  "type": "int",
+                  "name": "y",
+                  "value": 25
+                }
+              ]
+            },
+            {
+              "type": "Direction",
+              "name": "direction",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "type": "protocol/net/server::NpcUpdatePosition",
+          "children": [
+            {
+              "type": "int",
+              "name": "npc_index",
+              "value": 44
+            },
+            {
+              "type": "protocol::Coords",
+              "name": "coords",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "x",
+                  "value": 24
+                },
+                {
+                  "type": "int",
+                  "name": "y",
+                  "value": 27
+                }
+              ]
+            },
+            {
+              "type": "Direction",
+              "name": "direction",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "type": "protocol/net/server::NpcUpdatePosition",
+          "children": [
+            {
+              "type": "int",
+              "name": "npc_index",
+              "value": 45
+            },
+            {
+              "type": "protocol::Coords",
+              "name": "coords",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "x",
+                  "value": 17
+                },
+                {
+                  "type": "int",
+                  "name": "y",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "Direction",
+              "name": "direction",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "[]protocol/net/server::NpcUpdateAttack",
+      "name": "attacks",
+      "children": [
+        {
+          "type": "protocol/net/server::NpcUpdateAttack",
+          "children": [
+            {
+              "type": "int",
+              "name": "npc_index",
+              "value": 38
+            },
+            {
+              "type": "PlayerKilledState",
+              "name": "killed",
+              "value": 1
+            },
+            {
+              "type": "Direction",
+              "name": "direction",
+              "value": 2
+            },
+            {
+              "type": "int",
+              "name": "player_id",
+              "value": 316
+            },
+            {
+              "type": "int",
+              "name": "damage",
+              "value": 1
+            },
+            {
+              "type": "int",
+              "name": "hp_percentage",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "type": "protocol/net/server::NpcUpdateAttack",
+          "children": [
+            {
+              "type": "int",
+              "name": "npc_index",
+              "value": 40
+            },
+            {
+              "type": "PlayerKilledState",
+              "name": "killed",
+              "value": 1
+            },
+            {
+              "type": "Direction",
+              "name": "direction",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "player_id",
+              "value": 316
+            },
+            {
+              "type": "int",
+              "name": "damage",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "hp_percentage",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "type": "protocol/net/server::NpcUpdateAttack",
+          "children": [
+            {
+              "type": "int",
+              "name": "npc_index",
+              "value": 42
+            },
+            {
+              "type": "PlayerKilledState",
+              "name": "killed",
+              "value": 1
+            },
+            {
+              "type": "Direction",
+              "name": "direction",
+              "value": 1
+            },
+            {
+              "type": "int",
+              "name": "player_id",
+              "value": 316
+            },
+            {
+              "type": "int",
+              "name": "damage",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "hp_percentage",
+              "value": 40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "[]protocol/net/server::NpcUpdateChat",
+      "name": "chats"
+    },
+    {
+      "name": "hp",
+      "value": 4,
+      "optional": true
+    },
+    {
+      "name": "tp",
+      "value": 10,
+      "optional": true
+    }
+  ]
+}

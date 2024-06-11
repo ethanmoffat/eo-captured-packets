@@ -1,0 +1,28 @@
+{
+  "family": "Welcome",
+  "action": "Agree",
+  "expected": "BU1LAg==",
+  "properties": [
+    {
+      "type": "FileType",
+      "name": "file_type",
+      "value": 4
+    },
+    {
+      "type": "int",
+      "name": "session_id",
+      "value": 18798
+    },
+    {
+      "type": "protocol/net/client::WelcomeAgreeFileTypeDataEsf",
+      "name": "file_type_data",
+      "children": [
+        {
+          "type": "int",
+          "name": "file_id",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}

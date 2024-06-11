@@ -1,0 +1,17 @@
+{
+  "family": "Party",
+  "action": "Request",
+  "expected": "AmQC",
+  "properties": [
+    {
+      "type": "PartyRequestType",
+      "name": "request_type",
+      "value": 1
+    },
+    {
+      "type": "int",
+      "name": "player_id",
+      "value": 352
+    }
+  ]
+}

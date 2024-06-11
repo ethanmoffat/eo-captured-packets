@@ -1,0 +1,12 @@
+{
+  "family": "Party",
+  "action": "Remove",
+  "expected": "SAI=",
+  "properties": [
+    {
+      "type": "int",
+      "name": "player_id",
+      "value": 324
+    }
+  ]
+}

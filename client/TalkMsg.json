@@ -1,0 +1,12 @@
+{
+  "family": "Talk",
+  "action": "Msg",
+  "expected": "aGVsbG8=",
+  "properties": [
+    {
+      "type": "string",
+      "name": "message",
+      "value": "hello"
+    }
+  ]
+}

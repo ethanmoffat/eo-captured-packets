@@ -1,0 +1,33 @@
+{
+  "family": "Party",
+  "action": "TargetGroup",
+  "expected": "SAIE/v7+AQ==",
+  "properties": [
+    {
+      "type": "[]protocol/net/server::PartyExpShare",
+      "name": "gains",
+      "children": [
+        {
+          "type": "protocol/net/server::PartyExpShare",
+          "children": [
+            {
+              "type": "int",
+              "name": "player_id",
+              "value": 324
+            },
+            {
+              "type": "int",
+              "name": "experience",
+              "value": 3
+            },
+            {
+              "type": "int",
+              "name": "level_up",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

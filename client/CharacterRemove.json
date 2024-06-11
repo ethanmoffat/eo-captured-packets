@@ -1,0 +1,17 @@
+{
+  "family": "Character",
+  "action": "Remove",
+  "expected": "0t9H/g==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "session_id",
+      "value": 56375
+    },
+    {
+      "type": "int",
+      "name": "character_id",
+      "value": 70
+    }
+  ]
+}

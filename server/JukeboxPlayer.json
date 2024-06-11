@@ -1,0 +1,12 @@
+{
+  "family": "Jukebox",
+  "action": "Player",
+  "expected": "Aw==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "mfx_id",
+      "value": 2
+    }
+  ]
+}

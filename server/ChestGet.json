@@ -1,0 +1,60 @@
+{
+  "family": "Chest",
+  "action": "Get",
+  "expected": "kf4C/v4FR5j+Av7+",
+  "properties": [
+    {
+      "type": "protocol/net::ThreeItem",
+      "name": "taken_item",
+      "children": [
+        {
+          "type": "int",
+          "name": "id",
+          "value": 144
+        },
+        {
+          "type": "int",
+          "name": "amount",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "type": "protocol/net::Weight",
+      "name": "weight",
+      "children": [
+        {
+          "type": "int",
+          "name": "current",
+          "value": 4
+        },
+        {
+          "type": "int",
+          "name": "max",
+          "value": 70
+        }
+      ]
+    },
+    {
+      "type": "[]protocol/net::ThreeItem",
+      "name": "items",
+      "children": [
+        {
+          "type": "protocol/net::ThreeItem",
+          "children": [
+            {
+              "type": "int",
+              "name": "id",
+              "value": 151
+            },
+            {
+              "type": "int",
+              "name": "amount",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "family": "Sit",
+  "action": "Request",
+  "expected": "AicO",
+  "properties": [
+    {
+      "type": "SitAction",
+      "name": "sit_action",
+      "value": 1
+    },
+    {
+      "type": "protocol/net/client::SitRequestSitActionDataSit",
+      "name": "sit_action_data",
+      "children": [
+        {
+          "type": "protocol::Coords",
+          "name": "cursor_coords",
+          "children": [
+            {
+              "type": "int",
+              "name": "x",
+              "value": 38
+            },
+            {
+              "type": "int",
+              "name": "y",
+              "value": 13
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

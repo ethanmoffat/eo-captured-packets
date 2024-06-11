@@ -1,0 +1,12 @@
+{
+  "family": "Character",
+  "action": "Take",
+  "expected": "R/7+/g==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "character_id",
+      "value": 70
+    }
+  ]
+}

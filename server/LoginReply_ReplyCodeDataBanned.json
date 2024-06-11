@@ -1,0 +1,16 @@
+{
+  "family": "Login",
+  "action": "Reply",
+  "expected": "Bf5OTw==",
+  "properties": [
+    {
+      "type": "LoginReply",
+      "name": "reply_code",
+      "value": 4
+    },
+    {
+      "type": "protocol/net/server::LoginReplyReplyCodeDataBanned",
+      "name": "reply_code_data"
+    }
+  ]
+}

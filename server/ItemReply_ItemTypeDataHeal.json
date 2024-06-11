@@ -1,0 +1,65 @@
+{
+  "family": "Item",
+  "action": "Reply",
+  "expected": "BAX+Af7+/g9IM/7+/lX+C/4=",
+  "properties": [
+    {
+      "type": "ItemType",
+      "name": "item_type",
+      "value": 3
+    },
+    {
+      "type": "protocol/net::Item",
+      "name": "used_item",
+      "children": [
+        {
+          "type": "int",
+          "name": "id",
+          "value": 4
+        },
+        {
+          "type": "int",
+          "name": "amount",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "type": "protocol/net::Weight",
+      "name": "weight",
+      "children": [
+        {
+          "type": "int",
+          "name": "current",
+          "value": 14
+        },
+        {
+          "type": "int",
+          "name": "max",
+          "value": 71
+        }
+      ]
+    },
+    {
+      "type": "protocol/net/server::ItemReplyItemTypeDataHeal",
+      "name": "item_type_data",
+      "children": [
+        {
+          "type": "int",
+          "name": "hp_gain",
+          "value": 50
+        },
+        {
+          "type": "int",
+          "name": "hp",
+          "value": 84
+        },
+        {
+          "type": "int",
+          "name": "tp",
+          "value": 10
+        }
+      ]
+    }
+  ]
+}

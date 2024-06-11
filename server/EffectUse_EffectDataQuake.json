@@ -1,0 +1,23 @@
+{
+  "family": "Effect",
+  "action": "Use",
+  "expected": "AgI=",
+  "properties": [
+    {
+      "type": "MapEffect",
+      "name": "effect",
+      "value": 1
+    },
+    {
+      "type": "protocol/net/server::EffectUseEffectDataQuake",
+      "name": "effect_data",
+      "children": [
+        {
+          "type": "int",
+          "name": "quake_strength",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "family": "Item",
+  "action": "Add",
+  "expected": "DwIC/gL+/hgZ",
+  "properties": [
+    {
+      "type": "int",
+      "name": "item_id",
+      "value": 267
+    },
+    {
+      "type": "int",
+      "name": "item_index",
+      "value": 1
+    },
+    {
+      "type": "int",
+      "name": "item_amount",
+      "value": 1
+    },
+    {
+      "type": "protocol::Coords",
+      "name": "coords",
+      "children": [
+        {
+          "type": "int",
+          "name": "x",
+          "value": 23
+        },
+        {
+          "type": "int",
+          "name": "y",
+          "value": 24
+        }
+      ]
+    }
+  ]
+}

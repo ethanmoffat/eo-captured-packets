@@ -1,0 +1,69 @@
+{
+  "family": "Npc",
+  "action": "Spec",
+  "expected": "SAIEEf4B/gL+EQoG/v7+Av7+D/7+/g==",
+  "properties": [
+    {
+      "type": "protocol/net/server::NpcKilledData",
+      "name": "npc_killed_data",
+      "children": [
+        {
+          "type": "int",
+          "name": "killer_id",
+          "value": 324
+        },
+        {
+          "type": "Direction",
+          "name": "killer_direction",
+          "value": 3
+        },
+        {
+          "type": "int",
+          "name": "npc_index",
+          "value": 16
+        },
+        {
+          "type": "int",
+          "name": "drop_index",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "name": "drop_id",
+          "value": 1
+        },
+        {
+          "type": "protocol::Coords",
+          "name": "drop_coords",
+          "children": [
+            {
+              "type": "int",
+              "name": "x",
+              "value": 16
+            },
+            {
+              "type": "int",
+              "name": "y",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "type": "int",
+          "name": "drop_amount",
+          "value": 5
+        },
+        {
+          "type": "int",
+          "name": "damage",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "experience",
+      "value": 14,
+      "optional": true
+    }
+  ]
+}

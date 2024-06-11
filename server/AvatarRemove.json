@@ -1,0 +1,17 @@
+{
+  "family": "Avatar",
+  "action": "Remove",
+  "expected": "WAIB",
+  "properties": [
+    {
+      "type": "int",
+      "name": "player_id",
+      "value": 340
+    },
+    {
+      "name": "warp_effect",
+      "value": 0,
+      "optional": true
+    }
+  ]
+}

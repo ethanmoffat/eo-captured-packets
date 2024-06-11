@@ -1,0 +1,12 @@
+{
+  "family": "Emote",
+  "action": "Report",
+  "expected": "Dw==",
+  "properties": [
+    {
+      "type": "Emote",
+      "name": "emote",
+      "value": 14
+    }
+  ]
+}

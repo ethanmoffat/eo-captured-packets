@@ -1,0 +1,12 @@
+{
+  "family": "Account",
+  "action": "Request",
+  "expected": "Y2FwdHVyZWFjYw==",
+  "properties": [
+    {
+      "type": "string",
+      "name": "username",
+      "value": "captureacc"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "family": "Account",
+  "action": "Agree",
+  "expected": "Y2FwdHVyZWFjY/9jYXB0dXJlYWNjcHf/bmV3cGFzc3dvcmT/",
+  "properties": [
+    {
+      "type": "string",
+      "name": "username",
+      "value": "captureacc"
+    },
+    {
+      "type": "string",
+      "name": "old_password",
+      "value": "captureaccpw"
+    },
+    {
+      "type": "string",
+      "name": "new_password",
+      "value": "newpassword"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "family": "AdminInteract",
+  "action": "List",
+  "expected": "Y2FwdHVyZWFjY/8m/v7+/wH+/v7/Av6qcAn+Bv4U/v7+/w==",
+  "properties": [
+    {
+      "type": "string",
+      "name": "name",
+      "value": "captureacc"
+    },
+    {
+      "type": "int",
+      "name": "usage",
+      "value": 37
+    },
+    {
+      "type": "int",
+      "name": "gold_bank",
+      "value": 0
+    },
+    {
+      "type": "[]protocol/net::Item",
+      "name": "inventory",
+      "children": [
+        {
+          "type": "protocol/net::Item",
+          "children": [
+            {
+              "type": "int",
+              "name": "id",
+              "value": 1
+            },
+            {
+              "type": "int",
+              "name": "amount",
+              "value": 540324
+            }
+          ]
+        },
+        {
+          "type": "protocol/net::Item",
+          "children": [
+            {
+              "type": "int",
+              "name": "id",
+              "value": 5
+            },
+            {
+              "type": "int",
+              "name": "amount",
+              "value": 19
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "[]protocol/net::ThreeItem",
+      "name": "bank"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "family": "Welcome",
+  "action": "Agree",
+  "expected": "BvRLAg==",
+  "properties": [
+    {
+      "type": "FileType",
+      "name": "file_type",
+      "value": 5
+    },
+    {
+      "type": "int",
+      "name": "session_id",
+      "value": 18965
+    },
+    {
+      "type": "protocol/net/client::WelcomeAgreeFileTypeDataEcf",
+      "name": "file_type_data",
+      "children": [
+        {
+          "type": "int",
+          "name": "file_id",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}

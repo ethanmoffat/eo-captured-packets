@@ -1,0 +1,54 @@
+{
+  "family": "Chest",
+  "action": "Reply",
+  "expected": "mP4B/v7+BUeY/gL+/g==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "added_item_id",
+      "value": 151
+    },
+    {
+      "type": "int",
+      "name": "remaining_amount",
+      "value": 0
+    },
+    {
+      "type": "protocol/net::Weight",
+      "name": "weight",
+      "children": [
+        {
+          "type": "int",
+          "name": "current",
+          "value": 4
+        },
+        {
+          "type": "int",
+          "name": "max",
+          "value": 70
+        }
+      ]
+    },
+    {
+      "type": "[]protocol/net::ThreeItem",
+      "name": "items",
+      "children": [
+        {
+          "type": "protocol/net::ThreeItem",
+          "children": [
+            {
+              "type": "int",
+              "name": "id",
+              "value": 151
+            },
+            {
+              "type": "int",
+              "name": "amount",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "family": "Connection",
+  "action": "Accept",
+  "expected": "Df4H/kAC",
+  "properties": [
+    {
+      "type": "int",
+      "name": "client_encryption_multiple",
+      "value": 12
+    },
+    {
+      "type": "int",
+      "name": "server_encryption_multiple",
+      "value": 6
+    },
+    {
+      "type": "int",
+      "name": "player_id",
+      "value": 316
+    }
+  ]
+}

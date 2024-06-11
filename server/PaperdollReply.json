@@ -1,0 +1,155 @@
+{
+  "family": "Paperdoll",
+  "action": "Reply",
+  "expected": "Y2FwdHVyZWFjY/9XYW5kZXJlcv//////SAICAgEB/gH+DwIs/pH+Af4B/gH+Af4r/gH+Af4B/gH+Af4C",
+  "properties": [
+    {
+      "type": "protocol/net/server::CharacterDetails",
+      "name": "details",
+      "children": [
+        {
+          "type": "string",
+          "name": "name",
+          "value": "captureacc"
+        },
+        {
+          "type": "string",
+          "name": "home",
+          "value": "Wanderer"
+        },
+        {
+          "type": "string",
+          "name": "partner",
+          "value": ""
+        },
+        {
+          "type": "string",
+          "name": "title",
+          "value": ""
+        },
+        {
+          "type": "string",
+          "name": "guild",
+          "value": ""
+        },
+        {
+          "type": "string",
+          "name": "guild_rank",
+          "value": ""
+        },
+        {
+          "type": "int",
+          "name": "player_id",
+          "value": 324
+        },
+        {
+          "type": "int",
+          "name": "class_id",
+          "value": 1
+        },
+        {
+          "type": "Gender",
+          "name": "gender",
+          "value": 1
+        },
+        {
+          "type": "AdminLevel",
+          "name": "admin",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "type": "protocol/net/server::EquipmentPaperdoll",
+      "name": "equipment",
+      "children": [
+        {
+          "type": "int",
+          "name": "boots",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "name": "accessory",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "name": "gloves",
+          "value": 267
+        },
+        {
+          "type": "int",
+          "name": "belt",
+          "value": 43
+        },
+        {
+          "type": "int",
+          "name": "armor",
+          "value": 144
+        },
+        {
+          "type": "int",
+          "name": "necklace",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "name": "hat",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "name": "shield",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "name": "weapon",
+          "value": 0
+        },
+        {
+          "type": "[]int",
+          "name": "ring",
+          "children": [
+            {
+              "value": 42
+            },
+            {
+              "value": 0
+            }
+          ]
+        },
+        {
+          "type": "[]int",
+          "name": "armlet",
+          "children": [
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            }
+          ]
+        },
+        {
+          "type": "[]int",
+          "name": "bracer",
+          "children": [
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "CharacterIcon",
+      "name": "icon",
+      "value": 1
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "family": "Talk",
+  "action": "Server",
+  "expected": "QXR0ZW50aW9uISEgY2FwdHVyZWFjYyBtb3ZlbWVudCBoYXMgYmVlbiBmcm96ZW4gLXZ1bHQtcg==",
+  "properties": [
+    {
+      "type": "string",
+      "name": "message",
+      "value": "Attention!! captureacc movement has been frozen -vult-r"
+    }
+  ]
+}

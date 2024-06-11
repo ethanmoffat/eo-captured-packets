@@ -1,0 +1,23 @@
+{
+  "family": "Door",
+  "action": "Open",
+  "expected": "GRQ=",
+  "properties": [
+    {
+      "type": "protocol::Coords",
+      "name": "coords",
+      "children": [
+        {
+          "type": "int",
+          "name": "x",
+          "value": 24
+        },
+        {
+          "type": "int",
+          "name": "y",
+          "value": 19
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "family": "Warp",
+  "action": "Take",
+  "expected": "v/4kTg==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "map_id",
+      "value": 190
+    },
+    {
+      "type": "int",
+      "name": "session_id",
+      "value": 19516
+    }
+  ]
+}

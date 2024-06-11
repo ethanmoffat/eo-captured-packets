@@ -1,0 +1,12 @@
+{
+  "family": "Book",
+  "action": "Request",
+  "expected": "ZAI=",
+  "properties": [
+    {
+      "type": "int",
+      "name": "player_id",
+      "value": 352
+    }
+  ]
+}

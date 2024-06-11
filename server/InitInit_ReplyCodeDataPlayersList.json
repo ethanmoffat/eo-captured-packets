@@ -1,0 +1,100 @@
+{
+  "family": "Init",
+  "action": "Init",
+  "expected": "CQP+/2NhcHR1cmVhY2P//wEHAiAgIP92dWx0LXL//wYLAiAgIP8=",
+  "properties": [
+    {
+      "type": "InitReply",
+      "name": "reply_code",
+      "value": 9
+    },
+    {
+      "type": "protocol/net/server::InitInitReplyCodeDataPlayersList",
+      "name": "reply_code_data",
+      "children": [
+        {
+          "type": "protocol/net/server::PlayersList",
+          "name": "players_list",
+          "children": [
+            {
+              "type": "[]protocol/net/server::OnlinePlayer",
+              "name": "players",
+              "children": [
+                {
+                  "type": "protocol/net/server::OnlinePlayer",
+                  "children": [
+                    {
+                      "type": "string",
+                      "name": "name",
+                      "value": "captureacc"
+                    },
+                    {
+                      "type": "string",
+                      "name": "title",
+                      "value": ""
+                    },
+                    {
+                      "type": "int",
+                      "name": "level",
+                      "value": 0
+                    },
+                    {
+                      "type": "CharacterIcon",
+                      "name": "icon",
+                      "value": 6
+                    },
+                    {
+                      "type": "int",
+                      "name": "class_id",
+                      "value": 1
+                    },
+                    {
+                      "type": "string",
+                      "name": "guild_tag",
+                      "value": "   "
+                    }
+                  ]
+                },
+                {
+                  "type": "protocol/net/server::OnlinePlayer",
+                  "children": [
+                    {
+                      "type": "string",
+                      "name": "name",
+                      "value": "vult-r"
+                    },
+                    {
+                      "type": "string",
+                      "name": "title",
+                      "value": ""
+                    },
+                    {
+                      "type": "int",
+                      "name": "level",
+                      "value": 5
+                    },
+                    {
+                      "type": "CharacterIcon",
+                      "name": "icon",
+                      "value": 10
+                    },
+                    {
+                      "type": "int",
+                      "name": "class_id",
+                      "value": 1
+                    },
+                    {
+                      "type": "string",
+                      "name": "guild_tag",
+                      "value": "   "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

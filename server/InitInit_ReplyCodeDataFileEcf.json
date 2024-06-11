@@ -1,0 +1,34 @@
+{
+  "family": "Init",
+  "action": "Init",
+  "expected": "DAJFQ0abTrLeCf4BCFBlYXNhbnQBBQH+Af4B/gH+Af4B/gdQcmllc3QBAwH+A/4B/gH+Af4B/glNYWdpY2lhbgEDAf4B/gP+Af4B/gH+BlJvZ3VlAQIB/gH+Af4D/gP+Af4HQXJjaGVyAQQB/gH+Af4D/gH+Af4IV2FycmlvcgEBA/4B/gH+Af4B/gH+CVN1bW1vbmVyAQMB/gL+Av4B/gH+Af4MSGlnaCBQcmllc3QDAwH+Bf4F/gH+Af4B/g==",
+  "properties": [
+    {
+      "type": "InitReply",
+      "name": "reply_code",
+      "value": 12
+    },
+    {
+      "type": "protocol/net/server::InitInitReplyCodeDataFileEcf",
+      "name": "reply_code_data",
+      "children": [
+        {
+          "type": "protocol/net/server::PubFile",
+          "name": "pub_file",
+          "children": [
+            {
+              "type": "int",
+              "name": "file_id",
+              "value": 1
+            },
+            {
+              "type": "[]byte",
+              "name": "content",
+              "value": "RUNGm06y3gn+AQhQZWFzYW50AQUB/gH+Af4B/gH+Af4HUHJpZXN0AQMB/gP+Af4B/gH+Af4JTWFnaWNpYW4BAwH+Af4D/gH+Af4B/gZSb2d1ZQECAf4B/gH+A/4D/gH+B0FyY2hlcgEEAf4B/gH+A/4B/gH+CFdhcnJpb3IBAQP+Af4B/gH+Af4B/glTdW1tb25lcgEDAf4C/gL+Af4B/gH+DEhpZ2ggUHJpZXN0AwMB/gX+Bf4B/gH+Af4="
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "family": "Item",
+  "action": "Reply",
+  "expected": "F9P+Af7+/hBI",
+  "properties": [
+    {
+      "type": "ItemType",
+      "name": "item_type",
+      "value": 22
+    },
+    {
+      "type": "protocol/net::Item",
+      "name": "used_item",
+      "children": [
+        {
+          "type": "int",
+          "name": "id",
+          "value": 210
+        },
+        {
+          "type": "int",
+          "name": "amount",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "type": "protocol/net::Weight",
+      "name": "weight",
+      "children": [
+        {
+          "type": "int",
+          "name": "current",
+          "value": 15
+        },
+        {
+          "type": "int",
+          "name": "max",
+          "value": 71
+        }
+      ]
+    }
+  ]
+}

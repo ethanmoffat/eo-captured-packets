@@ -1,0 +1,59 @@
+{
+  "family": "Quest",
+  "action": "List",
+  "expected": "AgL+R29hdCBCdXNpbmVzc/9Db2xsZWN0IDYgZ29hdCBob3Juc/8E/gH+B/7/",
+  "properties": [
+    {
+      "type": "QuestPage",
+      "name": "page",
+      "value": 1
+    },
+    {
+      "type": "int",
+      "name": "quests_count",
+      "value": 1
+    },
+    {
+      "type": "protocol/net/server::QuestListPageDataProgress",
+      "name": "page_data",
+      "children": [
+        {
+          "type": "[]protocol/net/server::QuestProgressEntry",
+          "name": "quest_progress_entries",
+          "children": [
+            {
+              "type": "protocol/net/server::QuestProgressEntry",
+              "children": [
+                {
+                  "type": "string",
+                  "name": "name",
+                  "value": "Goat Business"
+                },
+                {
+                  "type": "string",
+                  "name": "description",
+                  "value": "Collect 6 goat horns"
+                },
+                {
+                  "type": "QuestRequirementIcon",
+                  "name": "icon",
+                  "value": 3
+                },
+                {
+                  "type": "int",
+                  "name": "progress",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "name": "target",
+                  "value": 6
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

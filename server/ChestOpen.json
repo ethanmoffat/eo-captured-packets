@@ -1,0 +1,59 @@
+{
+  "family": "Chest",
+  "action": "Open",
+  "expected": "CAWY/gL+/pH+Av7+",
+  "properties": [
+    {
+      "type": "protocol::Coords",
+      "name": "coords",
+      "children": [
+        {
+          "type": "int",
+          "name": "x",
+          "value": 7
+        },
+        {
+          "type": "int",
+          "name": "y",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "type": "[]protocol/net::ThreeItem",
+      "name": "items",
+      "children": [
+        {
+          "type": "protocol/net::ThreeItem",
+          "children": [
+            {
+              "type": "int",
+              "name": "id",
+              "value": 151
+            },
+            {
+              "type": "int",
+              "name": "amount",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "type": "protocol/net::ThreeItem",
+          "children": [
+            {
+              "type": "int",
+              "name": "id",
+              "value": 144
+            },
+            {
+              "type": "int",
+              "name": "amount",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "family": "Account",
+  "action": "Reply",
+  "expected": "Av5OTw==",
+  "properties": [
+    {
+      "type": "AccountReply",
+      "name": "reply_code",
+      "value": 1
+    },
+    {
+      "type": "protocol/net/server::AccountReplyReplyCodeDataExists",
+      "name": "reply_code_data"
+    }
+  ]
+}

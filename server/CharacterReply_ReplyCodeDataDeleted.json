@@ -1,0 +1,100 @@
+{
+  "family": "Character",
+  "action": "Reply",
+  "expected": "B/4C/2NhcHR1cmVhY2P/Rv7+/gECCAgDAQH+Af4B/gH+Af7/",
+  "properties": [
+    {
+      "type": "CharacterReply",
+      "name": "reply_code",
+      "value": 6
+    },
+    {
+      "type": "protocol/net/server::CharacterReplyReplyCodeDataDeleted",
+      "name": "reply_code_data",
+      "children": [
+        {
+          "type": "[]protocol/net/server::CharacterSelectionListEntry",
+          "name": "characters",
+          "children": [
+            {
+              "type": "protocol/net/server::CharacterSelectionListEntry",
+              "children": [
+                {
+                  "type": "string",
+                  "name": "name",
+                  "value": "captureacc"
+                },
+                {
+                  "type": "int",
+                  "name": "id",
+                  "value": 69
+                },
+                {
+                  "type": "int",
+                  "name": "level",
+                  "value": 0
+                },
+                {
+                  "type": "Gender",
+                  "name": "gender",
+                  "value": 1
+                },
+                {
+                  "type": "int",
+                  "name": "hair_style",
+                  "value": 7
+                },
+                {
+                  "type": "int",
+                  "name": "hair_color",
+                  "value": 7
+                },
+                {
+                  "type": "int",
+                  "name": "skin",
+                  "value": 2
+                },
+                {
+                  "type": "AdminLevel",
+                  "name": "admin",
+                  "value": 0
+                },
+                {
+                  "type": "protocol/net/server::EquipmentCharacterSelect",
+                  "name": "equipment",
+                  "children": [
+                    {
+                      "type": "int",
+                      "name": "boots",
+                      "value": 0
+                    },
+                    {
+                      "type": "int",
+                      "name": "armor",
+                      "value": 0
+                    },
+                    {
+                      "type": "int",
+                      "name": "hat",
+                      "value": 0
+                    },
+                    {
+                      "type": "int",
+                      "name": "shield",
+                      "value": 0
+                    },
+                    {
+                      "type": "int",
+                      "name": "weapon",
+                      "value": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "family": "Walk",
+  "action": "Player",
+  "expected": "AXdBNwcI",
+  "properties": [
+    {
+      "type": "protocol/net/client::WalkAction",
+      "name": "walk_action",
+      "children": [
+        {
+          "type": "Direction",
+          "name": "direction",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "name": "timestamp",
+          "value": 3472796
+        },
+        {
+          "type": "protocol::Coords",
+          "name": "coords",
+          "children": [
+            {
+              "type": "int",
+              "name": "x",
+              "value": 6
+            },
+            {
+              "type": "int",
+              "name": "y",
+              "value": 7
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

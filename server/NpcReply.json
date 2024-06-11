@@ -1,0 +1,37 @@
+{
+  "family": "Npc",
+  "action": "Reply",
+  "expected": "OAIBLP4C/v5U/gI=",
+  "properties": [
+    {
+      "type": "int",
+      "name": "player_id",
+      "value": 308
+    },
+    {
+      "type": "Direction",
+      "name": "player_direction",
+      "value": 0
+    },
+    {
+      "type": "int",
+      "name": "npc_index",
+      "value": 43
+    },
+    {
+      "type": "int",
+      "name": "damage",
+      "value": 1
+    },
+    {
+      "type": "int",
+      "name": "hp_percentage",
+      "value": 83
+    },
+    {
+      "name": "kill_steal_protection",
+      "value": 1,
+      "optional": true
+    }
+  ]
+}

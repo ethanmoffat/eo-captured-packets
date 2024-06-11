@@ -1,0 +1,34 @@
+{
+  "family": "Init",
+  "action": "Init",
+  "expected": "AwEN",
+  "properties": [
+    {
+      "type": "InitReply",
+      "name": "reply_code",
+      "value": 3
+    },
+    {
+      "type": "protocol/net/server::InitInitReplyCodeDataBanned",
+      "name": "reply_code_data",
+      "children": [
+        {
+          "type": "InitBanType",
+          "name": "ban_type",
+          "value": 1
+        },
+        {
+          "type": "protocol/net/server::InitInitBanTypeDataTemporary",
+          "name": "ban_type_data",
+          "children": [
+            {
+              "type": "int",
+              "name": "minutes_remaining",
+              "value": 13
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

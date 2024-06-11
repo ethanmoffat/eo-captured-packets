@@ -1,0 +1,12 @@
+{
+  "family": "Chair",
+  "action": "Request",
+  "expected": "Aw==",
+  "properties": [
+    {
+      "type": "SitAction",
+      "name": "sit_action",
+      "value": 2
+    }
+  ]
+}

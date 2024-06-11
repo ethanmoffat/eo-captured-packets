@@ -1,0 +1,23 @@
+{
+  "family": "Trade",
+  "action": "Add",
+  "expected": "Av4C/v7+",
+  "properties": [
+    {
+      "type": "protocol/net::Item",
+      "name": "add_item",
+      "children": [
+        {
+          "type": "int",
+          "name": "id",
+          "value": 1
+        },
+        {
+          "type": "int",
+          "name": "amount",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}

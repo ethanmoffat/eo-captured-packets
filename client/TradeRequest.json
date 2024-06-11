@@ -1,0 +1,12 @@
+{
+  "family": "Trade",
+  "action": "Request",
+  "expected": "i2QC",
+  "properties": [
+    {
+      "type": "int",
+      "name": "player_id",
+      "value": 352
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "family": "Recover",
+  "action": "Player",
+  "expected": "C/4L/gH+",
+  "properties": [
+    {
+      "type": "int",
+      "name": "hp",
+      "value": 10
+    },
+    {
+      "type": "int",
+      "name": "tp",
+      "value": 10
+    }
+  ]
+}

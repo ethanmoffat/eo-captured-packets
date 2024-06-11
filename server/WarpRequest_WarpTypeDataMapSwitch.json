@@ -1,0 +1,45 @@
+{
+  "family": "Warp",
+  "action": "Request",
+  "expected": "A7/++RJNsSQb/iRO",
+  "properties": [
+    {
+      "type": "WarpType",
+      "name": "warp_type",
+      "value": 2
+    },
+    {
+      "type": "int",
+      "name": "map_id",
+      "value": 190
+    },
+    {
+      "type": "protocol/net/server::WarpRequestWarpTypeDataMapSwitch",
+      "name": "warp_type_data",
+      "children": [
+        {
+          "type": "[]int",
+          "name": "map_rid",
+          "children": [
+            {
+              "value": 4549
+            },
+            {
+              "value": 44604
+            }
+          ]
+        },
+        {
+          "type": "int",
+          "name": "map_file_size",
+          "value": 6613
+        }
+      ]
+    },
+    {
+      "type": "int",
+      "name": "session_id",
+      "value": 19516
+    }
+  ]
+}

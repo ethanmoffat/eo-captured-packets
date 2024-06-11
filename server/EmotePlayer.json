@@ -1,0 +1,17 @@
+{
+  "family": "Emote",
+  "action": "Player",
+  "expected": "ZAIN",
+  "properties": [
+    {
+      "type": "int",
+      "name": "player_id",
+      "value": 352
+    },
+    {
+      "type": "Emote",
+      "name": "emote",
+      "value": 12
+    }
+  ]
+}

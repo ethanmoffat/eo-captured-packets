@@ -1,0 +1,12 @@
+{
+  "family": "Players",
+  "action": "Net242",
+  "expected": "dnVsdC1y",
+  "properties": [
+    {
+      "type": "string",
+      "name": "name",
+      "value": "vult-r"
+    }
+  ]
+}

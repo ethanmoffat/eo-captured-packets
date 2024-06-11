@@ -1,0 +1,38 @@
+{
+  "family": "Init",
+  "action": "Init",
+  "expected": "mKoFAQEdcQsxNzgzMTg2MDkw",
+  "properties": [
+    {
+      "type": "int",
+      "name": "challenge",
+      "value": 298944
+    },
+    {
+      "type": "protocol/net::Version",
+      "name": "version",
+      "children": [
+        {
+          "type": "int",
+          "name": "major",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "name": "minor",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "name": "patch",
+          "value": 28
+        }
+      ]
+    },
+    {
+      "type": "string",
+      "name": "hdid",
+      "value": "1783186090"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "family": "Connection",
+  "action": "Ping",
+  "expected": "aw==",
+  "properties": null
+}

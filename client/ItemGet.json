@@ -1,0 +1,12 @@
+{
+  "family": "Item",
+  "action": "Get",
+  "expected": "BP4=",
+  "properties": [
+    {
+      "type": "int",
+      "name": "item_index",
+      "value": 3
+    }
+  ]
+}

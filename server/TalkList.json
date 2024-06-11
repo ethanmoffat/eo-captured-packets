@@ -1,0 +1,43 @@
+{
+  "family": "Talk",
+  "action": "List",
+  "expected": "Y2FwdHVyZWFjY/9oZWxsb/92dWx0LXL/aGVsbG//",
+  "properties": [
+    {
+      "type": "[]protocol/net/server::GlobalBackfillMessage",
+      "name": "messages",
+      "children": [
+        {
+          "type": "protocol/net/server::GlobalBackfillMessage",
+          "children": [
+            {
+              "type": "string",
+              "name": "player_name",
+              "value": "captureacc"
+            },
+            {
+              "type": "string",
+              "name": "message",
+              "value": "hello"
+            }
+          ]
+        },
+        {
+          "type": "protocol/net/server::GlobalBackfillMessage",
+          "children": [
+            {
+              "type": "string",
+              "name": "player_name",
+              "value": "vult-r"
+            },
+            {
+              "type": "string",
+              "name": "message",
+              "value": "hello"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

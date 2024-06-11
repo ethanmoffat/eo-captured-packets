@@ -1,0 +1,36 @@
+{
+  "family": "Init",
+  "action": "Init",
+  "expected": "CwP+/2NhcHR1cmVhY2P/dnVsdC1y/w==",
+  "properties": [
+    {
+      "type": "InitReply",
+      "name": "reply_code",
+      "value": 11
+    },
+    {
+      "type": "protocol/net/server::InitInitReplyCodeDataPlayersListFriends",
+      "name": "reply_code_data",
+      "children": [
+        {
+          "type": "protocol/net/server::PlayersListFriends",
+          "name": "players_list",
+          "children": [
+            {
+              "type": "[]string",
+              "name": "players",
+              "children": [
+                {
+                  "value": "captureacc"
+                },
+                {
+                  "value": "vult-r"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
