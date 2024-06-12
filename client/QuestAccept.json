@@ -27,6 +27,10 @@
       "type": "protocol/net/client::DialogReply",
       "name": "reply_type",
       "value": 1
+    },
+    {
+      "type": "protocol/net/client::QuestAcceptReplyTypeDataOk",
+      "name": "reply_type_data"
     }
   ]
 }
