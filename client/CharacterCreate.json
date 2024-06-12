@@ -16,17 +16,17 @@
     {
       "type": "int",
       "name": "hair_style",
-      "value": 0
+      "value": 7
     },
     {
       "type": "int",
       "name": "hair_color",
-      "value": 0
+      "value": 7
     },
     {
       "type": "int",
       "name": "skin",
-      "value": 0
+      "value": 2
     },
     {
       "type": "string",
