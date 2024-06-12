@@ -9,7 +9,7 @@
       "value": 308
     },
     {
-      "type": "Direction",
+      "type": "protocol::Direction",
       "name": "player_direction",
       "value": 0
     },
@@ -29,6 +29,7 @@
       "value": 83
     },
     {
+      "type": "protocol/net/server::NpcKillStealProtectionState",
       "name": "kill_steal_protection",
       "value": 1,
       "optional": true

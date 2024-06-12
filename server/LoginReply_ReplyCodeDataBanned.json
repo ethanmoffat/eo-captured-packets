@@ -4,7 +4,7 @@
   "expected": "Bf5OTw==",
   "properties": [
     {
-      "type": "LoginReply",
+      "type": "protocol/net/server::LoginReply",
       "name": "reply_code",
       "value": 4
     },

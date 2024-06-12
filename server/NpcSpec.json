@@ -13,7 +13,7 @@
           "value": 308
         },
         {
-          "type": "Direction",
+          "type": "protocol::Direction",
           "name": "killer_direction",
           "value": 0
         },
@@ -61,6 +61,7 @@
       ]
     },
     {
+      "type": "int",
       "name": "experience",
       "value": 6,
       "optional": true

@@ -32,7 +32,7 @@
               ]
             },
             {
-              "type": "Direction",
+              "type": "protocol::Direction",
               "name": "direction",
               "value": 2
             }
@@ -49,10 +49,12 @@
       "name": "chats"
     },
     {
+      "type": "int",
       "name": "hp",
       "optional": true
     },
     {
+      "type": "int",
       "name": "tp",
       "optional": true
     }

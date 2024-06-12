@@ -4,7 +4,7 @@
   "expected": "Av5OTw==",
   "properties": [
     {
-      "type": "CharacterReply",
+      "type": "protocol/net/server::CharacterReply",
       "name": "reply_code",
       "value": 1
     },

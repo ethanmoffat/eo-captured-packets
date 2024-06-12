@@ -4,7 +4,7 @@
     "expected": "AQEBHQ==",
     "properties": [
         {
-            "type": "InitReply",
+            "type": "protocol/net/server::InitReply",
             "name": "reply_code",
             "value": 1
         },

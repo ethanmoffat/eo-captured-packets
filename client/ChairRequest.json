@@ -4,7 +4,7 @@
   "expected": "Aw==",
   "properties": [
     {
-      "type": "SitAction",
+      "type": "protocol/net/client::SitAction",
       "name": "sit_action",
       "value": 2
     }

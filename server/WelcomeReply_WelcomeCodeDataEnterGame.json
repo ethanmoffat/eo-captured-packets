@@ -4,7 +4,7 @@
   "expected": "A/7/V2VsY29tZSB0byBlbmRsZXNzIHYuMjX/W0FVRyAyMDEzXSBiZWNhdXNlIG9mIHRoZSBkZG9zIGF0dGFja3MgYW5kIHRoZSBkaXJlY3QgYWN0aW9ucyBvZiB0aGUgcHJldmlvdXMgaG9zdCAoeHNzZXJ2ZXIuZXUpIGFsbCBkYXRhIGJlZW4gY29ycnVwdGVkIGFuZCByb2xsZWQgYmFjayB0byBvY3RvYmVyIDIwMTI7IGFuZCBlbmRsZXNzIG9ubGluZSB3YXMgZm9yY2VkIGludG8gYSBuZXcgZGF0YWJhc2Ugc3RhcnQuIFBsZWFzZSBjb250YWN0IHhzc2VydmVyLmV1IGlmIHlvdSBoYXZlIGNvbW1lbnRzIG9yIHF1ZXN0aW9ucyBhYm91dCB0aGlzIG1hdHRlci7/W0FVRyAyMDEzXSBvbGQgaW5hY3RpdmUgY2hhcmFjdGVyIG5hbWVzIGJlZW4gcmVsZWFzZWQgYW5kIGFyZSBmcmVlIHRvIHJlLXJlZ2lzdGVyLCBoYXZlIGZ1bi7/////////AUf//wL/Y2FwdHVyZWFjY/84AsH+B/4H/gECICAgAQIICAML/gv+C/4L/gH+Af4B/gH+Af4B/gH+Af4B/gEB/wIQAgcGBP8=",
   "properties": [
     {
-      "type": "WelcomeCode",
+      "type": "protocol/net/server::WelcomeCode",
       "name": "welcome_code",
       "value": 2
     },
@@ -112,7 +112,7 @@
                       ]
                     },
                     {
-                      "type": "Direction",
+                      "type": "protocol::Direction",
                       "name": "direction",
                       "value": 0
                     },
@@ -132,7 +132,7 @@
                       "value": 0
                     },
                     {
-                      "type": "Gender",
+                      "type": "protocol::Gender",
                       "name": "gender",
                       "value": 1
                     },
@@ -203,7 +203,7 @@
                       ]
                     },
                     {
-                      "type": "SitState",
+                      "type": "protocol/net/server::SitState",
                       "name": "sit_state",
                       "value": 0
                     },
@@ -213,6 +213,7 @@
                       "value": false
                     },
                     {
+                      "type": "protocol/net/server::WarpEffect",
                       "name": "warp_effect",
                       "optional": true
                     }
@@ -254,7 +255,7 @@
                       ]
                     },
                     {
-                      "type": "Direction",
+                      "type": "protocol::Direction",
                       "name": "direction",
                       "value": 3
                     }

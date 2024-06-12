@@ -4,7 +4,7 @@
   "expected": "DAJFQ0abTrLeCf4BCFBlYXNhbnQBBQH+Af4B/gH+Af4B/gdQcmllc3QBAwH+A/4B/gH+Af4B/glNYWdpY2lhbgEDAf4B/gP+Af4B/gH+BlJvZ3VlAQIB/gH+Af4D/gP+Af4HQXJjaGVyAQQB/gH+Af4D/gH+Af4IV2FycmlvcgEBA/4B/gH+Af4B/gH+CVN1bW1vbmVyAQMB/gL+Av4B/gH+Af4MSGlnaCBQcmllc3QDAwH+Bf4F/gH+Af4B/g==",
   "properties": [
     {
-      "type": "InitReply",
+      "type": "protocol/net/server::InitReply",
       "name": "reply_code",
       "value": 12
     },

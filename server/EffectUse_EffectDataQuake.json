@@ -4,7 +4,7 @@
   "expected": "AgI=",
   "properties": [
     {
-      "type": "MapEffect",
+      "type": "protocol/net/server::MapEffect",
       "name": "effect",
       "value": 1
     },

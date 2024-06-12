@@ -4,7 +4,7 @@
   "expected": "BAX+Af7+/g9IM/7+/lX+C/4=",
   "properties": [
     {
-      "type": "ItemType",
+      "type": "protocol/pub::ItemType",
       "name": "item_type",
       "value": 3
     },

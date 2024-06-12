@@ -9,7 +9,7 @@
       "value": 11559
     },
     {
-      "type": "Gender",
+      "type": "protocol::Gender",
       "name": "gender",
       "value": 1
     },

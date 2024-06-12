@@ -24,7 +24,7 @@
       "value": 29
     },
     {
-      "type": "DialogReply",
+      "type": "protocol/net/client::DialogReply",
       "name": "reply_type",
       "value": 2
     },

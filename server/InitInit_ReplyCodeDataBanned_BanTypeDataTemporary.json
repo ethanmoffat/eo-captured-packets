@@ -4,7 +4,7 @@
   "expected": "AwEN",
   "properties": [
     {
-      "type": "InitReply",
+      "type": "protocol/net/server::InitReply",
       "name": "reply_code",
       "value": 3
     },
@@ -13,7 +13,7 @@
       "name": "reply_code_data",
       "children": [
         {
-          "type": "InitBanType",
+          "type": "protocol/net/server::InitBanType",
           "name": "ban_type",
           "value": 1
         },

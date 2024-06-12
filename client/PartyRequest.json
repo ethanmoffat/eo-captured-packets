@@ -4,7 +4,7 @@
   "expected": "AmQC",
   "properties": [
     {
-      "type": "PartyRequestType",
+      "type": "protocol/net/server::AvatarChangeType",
       "name": "request_type",
       "value": 1
     },

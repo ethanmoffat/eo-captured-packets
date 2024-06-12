@@ -4,7 +4,7 @@
   "expected": "Bv4CAf9jYXB0dXJlYWNj/0b+/v4BAggIAwEB/gH+Af4B/gH+/w==",
   "properties": [
     {
-      "type": "CharacterReply",
+      "type": "protocol/net/server::CharacterReply",
       "name": "reply_code",
       "value": 5
     },
@@ -35,7 +35,7 @@
                   "value": 0
                 },
                 {
-                  "type": "Gender",
+                  "type": "protocol::Gender",
                   "name": "gender",
                   "value": 1
                 },
@@ -55,7 +55,7 @@
                   "value": 2
                 },
                 {
-                  "type": "AdminLevel",
+                  "type": "protocol::AdminLevel",
                   "name": "admin",
                   "value": 0
                 },

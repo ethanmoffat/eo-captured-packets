@@ -4,7 +4,7 @@
   "expected": "AwL+",
   "properties": [
     {
-      "type": "QuestPage",
+      "type": "protocol/net::QuestPage",
       "name": "page",
       "value": 2
     },

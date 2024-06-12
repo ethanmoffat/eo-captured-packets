@@ -4,7 +4,7 @@
   "expected": "CwP+/2NhcHR1cmVhY2P/dnVsdC1y/w==",
   "properties": [
     {
-      "type": "InitReply",
+      "type": "protocol/net/server::InitReply",
       "name": "reply_code",
       "value": 11
     },

@@ -32,7 +32,7 @@
               ]
             },
             {
-              "type": "Direction",
+              "type": "protocol::Direction",
               "name": "direction",
               "value": 1
             }
@@ -63,7 +63,7 @@
               ]
             },
             {
-              "type": "Direction",
+              "type": "protocol::Direction",
               "name": "direction",
               "value": 0
             }
@@ -94,7 +94,7 @@
               ]
             },
             {
-              "type": "Direction",
+              "type": "protocol::Direction",
               "name": "direction",
               "value": 0
             }
@@ -125,7 +125,7 @@
               ]
             },
             {
-              "type": "Direction",
+              "type": "protocol::Direction",
               "name": "direction",
               "value": 1
             }
@@ -156,7 +156,7 @@
               ]
             },
             {
-              "type": "Direction",
+              "type": "protocol::Direction",
               "name": "direction",
               "value": 1
             }
@@ -187,7 +187,7 @@
               ]
             },
             {
-              "type": "Direction",
+              "type": "protocol::Direction",
               "name": "direction",
               "value": 2
             }
@@ -218,7 +218,7 @@
               ]
             },
             {
-              "type": "Direction",
+              "type": "protocol::Direction",
               "name": "direction",
               "value": 1
             }
@@ -252,10 +252,12 @@
       ]
     },
     {
+      "type": "int",
       "name": "hp",
       "optional": true
     },
     {
+      "type": "int",
       "name": "tp",
       "optional": true
     }

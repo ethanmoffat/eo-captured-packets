@@ -8,7 +8,7 @@
       "name": "walk_action",
       "children": [
         {
-          "type": "Direction",
+          "type": "protocol::Direction",
           "name": "direction",
           "value": 0
         },

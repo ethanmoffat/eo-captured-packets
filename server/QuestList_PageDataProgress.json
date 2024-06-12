@@ -4,7 +4,7 @@
   "expected": "AgL+R29hdCBCdXNpbmVzc/9Db2xsZWN0IDYgZ29hdCBob3Juc/8E/gH+B/7/",
   "properties": [
     {
-      "type": "QuestPage",
+      "type": "protocol/net::QuestPage",
       "name": "page",
       "value": 1
     },
@@ -35,7 +35,7 @@
                   "value": "Collect 6 goat horns"
                 },
                 {
-                  "type": "QuestRequirementIcon",
+                  "type": "protocol/net/server::QuestRequirementIcon",
                   "name": "icon",
                   "value": 3
                 },

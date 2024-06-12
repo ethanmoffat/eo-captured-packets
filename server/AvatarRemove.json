@@ -9,6 +9,7 @@
       "value": 340
     },
     {
+      "type": "protocol/net/server::WarpEffect",
       "name": "warp_effect",
       "value": 0,
       "optional": true

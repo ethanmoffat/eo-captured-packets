@@ -32,7 +32,7 @@
               ]
             },
             {
-              "type": "Direction",
+              "type": "protocol::Direction",
               "name": "direction",
               "value": 2
             }
@@ -63,7 +63,7 @@
               ]
             },
             {
-              "type": "Direction",
+              "type": "protocol::Direction",
               "name": "direction",
               "value": 2
             }
@@ -94,7 +94,7 @@
               ]
             },
             {
-              "type": "Direction",
+              "type": "protocol::Direction",
               "name": "direction",
               "value": 3
             }
@@ -125,7 +125,7 @@
               ]
             },
             {
-              "type": "Direction",
+              "type": "protocol::Direction",
               "name": "direction",
               "value": 2
             }
@@ -156,7 +156,7 @@
               ]
             },
             {
-              "type": "Direction",
+              "type": "protocol::Direction",
               "name": "direction",
               "value": 1
             }
@@ -187,7 +187,7 @@
               ]
             },
             {
-              "type": "Direction",
+              "type": "protocol::Direction",
               "name": "direction",
               "value": 1
             }
@@ -208,12 +208,12 @@
               "value": 38
             },
             {
-              "type": "PlayerKilledState",
+              "type": "protocol/net/server::PlayerKilledState",
               "name": "killed",
               "value": 1
             },
             {
-              "type": "Direction",
+              "type": "protocol::Direction",
               "name": "direction",
               "value": 2
             },
@@ -243,12 +243,12 @@
               "value": 40
             },
             {
-              "type": "PlayerKilledState",
+              "type": "protocol/net/server::PlayerKilledState",
               "name": "killed",
               "value": 1
             },
             {
-              "type": "Direction",
+              "type": "protocol::Direction",
               "name": "direction",
               "value": 0
             },
@@ -278,12 +278,12 @@
               "value": 42
             },
             {
-              "type": "PlayerKilledState",
+              "type": "protocol/net/server::PlayerKilledState",
               "name": "killed",
               "value": 1
             },
             {
-              "type": "Direction",
+              "type": "protocol::Direction",
               "name": "direction",
               "value": 1
             },
@@ -311,11 +311,13 @@
       "name": "chats"
     },
     {
+      "type": "int",
       "name": "hp",
       "value": 4,
       "optional": true
     },
     {
+      "type": "int",
       "name": "tp",
       "value": 10,
       "optional": true

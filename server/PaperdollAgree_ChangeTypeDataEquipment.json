@@ -13,7 +13,7 @@
           "value": 308
         },
         {
-          "type": "AvatarChangeType",
+          "type": "protocol/net/server::AvatarChangeType",
           "name": "change_type",
           "value": 1
         },

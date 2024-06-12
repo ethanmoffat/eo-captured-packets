@@ -4,7 +4,7 @@
   "expected": "A7/+AQL/Y2FwdHVyZWFjY/84Ar/+Ef4d/gQCICAgAQIICAML/gv+C/4L/gH+Af4B/gH+Af4B/gH+Af4B/gEB/wKb/hcZAyXn/hYbAybn/hgdAifn/hYcAijn/hgcAinn/hUaASrn/hYbASvo/hUaBCzo/hYZBC3o/hgaAS4HAhQZAf8=",
   "properties": [
     {
-      "type": "WarpType",
+      "type": "protocol/net/server::WarpType",
       "name": "warp_type",
       "value": 2
     },
@@ -18,7 +18,7 @@
           "value": 190
         },
         {
-          "type": "WarpEffect",
+          "type": "protocol/net/server::WarpEffect",
           "name": "warp_effect",
           "value": 0
         }
@@ -67,7 +67,7 @@
                   ]
                 },
                 {
-                  "type": "Direction",
+                  "type": "protocol::Direction",
                   "name": "direction",
                   "value": 3
                 },
@@ -87,7 +87,7 @@
                   "value": 0
                 },
                 {
-                  "type": "Gender",
+                  "type": "protocol::Gender",
                   "name": "gender",
                   "value": 1
                 },
@@ -158,7 +158,7 @@
                   ]
                 },
                 {
-                  "type": "SitState",
+                  "type": "protocol/net/server::SitState",
                   "name": "sit_state",
                   "value": 0
                 },
@@ -168,6 +168,7 @@
                   "value": false
                 },
                 {
+                  "type": "protocol/net/server::WarpEffect",
                   "name": "warp_effect",
                   "optional": true
                 }
@@ -209,7 +210,7 @@
                   ]
                 },
                 {
-                  "type": "Direction",
+                  "type": "protocol::Direction",
                   "name": "direction",
                   "value": 2
                 }
@@ -245,7 +246,7 @@
                   ]
                 },
                 {
-                  "type": "Direction",
+                  "type": "protocol::Direction",
                   "name": "direction",
                   "value": 2
                 }
@@ -281,7 +282,7 @@
                   ]
                 },
                 {
-                  "type": "Direction",
+                  "type": "protocol::Direction",
                   "name": "direction",
                   "value": 1
                 }
@@ -317,7 +318,7 @@
                   ]
                 },
                 {
-                  "type": "Direction",
+                  "type": "protocol::Direction",
                   "name": "direction",
                   "value": 1
                 }
@@ -353,7 +354,7 @@
                   ]
                 },
                 {
-                  "type": "Direction",
+                  "type": "protocol::Direction",
                   "name": "direction",
                   "value": 1
                 }
@@ -389,7 +390,7 @@
                   ]
                 },
                 {
-                  "type": "Direction",
+                  "type": "protocol::Direction",
                   "name": "direction",
                   "value": 0
                 }
@@ -425,7 +426,7 @@
                   ]
                 },
                 {
-                  "type": "Direction",
+                  "type": "protocol::Direction",
                   "name": "direction",
                   "value": 0
                 }
@@ -461,7 +462,7 @@
                   ]
                 },
                 {
-                  "type": "Direction",
+                  "type": "protocol::Direction",
                   "name": "direction",
                   "value": 3
                 }
@@ -497,7 +498,7 @@
                   ]
                 },
                 {
-                  "type": "Direction",
+                  "type": "protocol::Direction",
                   "name": "direction",
                   "value": 3
                 }
@@ -533,7 +534,7 @@
                   ]
                 },
                 {
-                  "type": "Direction",
+                  "type": "protocol::Direction",
                   "name": "direction",
                   "value": 0
                 }
@@ -569,7 +570,7 @@
                   ]
                 },
                 {
-                  "type": "Direction",
+                  "type": "protocol::Direction",
                   "name": "direction",
                   "value": 0
                 }

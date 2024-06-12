@@ -4,7 +4,7 @@
   "expected": "AWteNw==",
   "properties": [
     {
-      "type": "Direction",
+      "type": "protocol::Direction",
       "name": "direction",
       "value": 0
     },

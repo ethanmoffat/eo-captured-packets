@@ -48,19 +48,19 @@
           "value": 1
         },
         {
-          "type": "Gender",
+          "type": "protocol::Gender",
           "name": "gender",
           "value": 1
         },
         {
-          "type": "AdminLevel",
+          "type": "protocol::AdminLevel",
           "name": "admin",
           "value": 4
         }
       ]
     },
     {
-      "type": "CharacterIcon",
+      "type": "protocol/net/server::CharacterIcon",
       "name": "icon",
       "value": 5
     },

@@ -9,7 +9,7 @@
       "value": 352
     },
     {
-      "type": "Emote",
+      "type": "protocol::Emote",
       "name": "emote",
       "value": 12
     }

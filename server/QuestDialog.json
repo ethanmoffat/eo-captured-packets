@@ -52,7 +52,7 @@
           "type": "protocol/net/server::DialogEntry",
           "children": [
             {
-              "type": "DialogEntryType",
+              "type": "protocol/net/server::DialogEntryType",
               "name": "entry_type",
               "value": 1
             },
@@ -67,7 +67,7 @@
           "type": "protocol/net/server::DialogEntry",
           "children": [
             {
-              "type": "DialogEntryType",
+              "type": "protocol/net/server::DialogEntryType",
               "name": "entry_type",
               "value": 1
             },

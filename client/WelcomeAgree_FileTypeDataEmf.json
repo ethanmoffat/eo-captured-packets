@@ -4,7 +4,7 @@
   "expected": "AhhRwf4=",
   "properties": [
     {
-      "type": "FileType",
+      "type": "protocol/net/client::FileType",
       "name": "file_type",
       "value": 1
     },

@@ -4,7 +4,7 @@
   "expected": "Av52dWx0LXI=",
   "properties": [
     {
-      "type": "TalkReply",
+      "type": "protocol/net/server::TalkReply",
       "name": "reply_code",
       "value": 1
     },

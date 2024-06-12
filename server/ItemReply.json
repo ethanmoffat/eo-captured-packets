@@ -4,7 +4,7 @@
   "expected": "F9P+Af7+/hBI",
   "properties": [
     {
-      "type": "ItemType",
+      "type": "protocol/pub::ItemType",
       "name": "item_type",
       "value": 22
     },

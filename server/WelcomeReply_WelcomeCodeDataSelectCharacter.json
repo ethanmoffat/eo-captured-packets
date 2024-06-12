@@ -4,7 +4,7 @@
   "expected": "Av4YUUb+/v7B/vkSTbGOA/77LCQi7wIW/gH+MwIwsrguIf6bTrLeCf5jYXB0dXJlYWNj/////wIwICABAQH+/v4B/v7+C/4L/gv+C/4V/gH+Af7yBAH+Af4B/gH+Af4B/gH+Af4B/gH+Af4B/gH+Af4B/gH+Af4B/gH+Af4B/gH+Af4B/gH+Af4BTf4F/hkZC/4L/gL+Av77/w==",
   "properties": [
     {
-      "type": "WelcomeCode",
+      "type": "protocol/net/server::WelcomeCode",
       "name": "welcome_code",
       "value": 1
     },
@@ -143,7 +143,7 @@
           "value": "0  "
         },
         {
-          "type": "AdminLevel",
+          "type": "protocol::AdminLevel",
           "name": "admin",
           "value": 0
         },
@@ -420,7 +420,7 @@
           ]
         },
         {
-          "type": "LoginMessageCode",
+          "type": "protocol/net/server::LoginMessageCode",
           "name": "login_message_code",
           "value": 250
         }

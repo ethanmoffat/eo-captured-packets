@@ -4,7 +4,7 @@
   "expected": "A7/++RJNsSQb/iRO",
   "properties": [
     {
-      "type": "WarpType",
+      "type": "protocol/net/server::WarpType",
       "name": "warp_type",
       "value": 2
     },

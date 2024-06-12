@@ -4,7 +4,7 @@
   "expected": "CQP+/2NhcHR1cmVhY2P//wEHAiAgIP92dWx0LXL//wYLAiAgIP8=",
   "properties": [
     {
-      "type": "InitReply",
+      "type": "protocol/net/server::InitReply",
       "name": "reply_code",
       "value": 9
     },
@@ -39,7 +39,7 @@
                       "value": 0
                     },
                     {
-                      "type": "CharacterIcon",
+                      "type": "protocol/net/server::CharacterIcon",
                       "name": "icon",
                       "value": 6
                     },
@@ -74,7 +74,7 @@
                       "value": 5
                     },
                     {
-                      "type": "CharacterIcon",
+                      "type": "protocol/net/server::CharacterIcon",
                       "name": "icon",
                       "value": 10
                     },
