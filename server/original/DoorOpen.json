@@ -1,7 +1,7 @@
 {
   "family": "Door",
   "action": "Open",
-  "expected": "GRQ=",
+  "expected": "GRT+",
   "properties": [
     {
       "type": "protocol::Coords",
