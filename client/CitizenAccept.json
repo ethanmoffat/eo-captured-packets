@@ -1,0 +1,17 @@
+{
+  "family": "Citizen",
+  "action": "Accept",
+  "expected": "7asC/g==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "session_id",
+      "value": 43246
+    },
+    {
+      "type": "int",
+      "name": "behavior_id",
+      "value": 1
+    }
+  ]
+}

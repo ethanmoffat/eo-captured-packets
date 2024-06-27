@@ -1,0 +1,12 @@
+{
+  "family": "Jukebox",
+  "action": "Use",
+  "expected": "Av4=",
+  "properties": [
+    {
+      "type": "int",
+      "name": "track_id",
+      "value": 1
+    }
+  ]
+}

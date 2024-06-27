@@ -1,0 +1,17 @@
+{
+  "family": "Paperdoll",
+  "action": "Remove",
+  "expected": "hv4B",
+  "properties": [
+    {
+      "type": "int",
+      "name": "item_id",
+      "value": 133
+    },
+    {
+      "type": "int",
+      "name": "sub_loc",
+      "value": 0
+    }
+  ]
+}

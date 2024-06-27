@@ -1,0 +1,12 @@
+{
+  "family": "Citizen",
+  "action": "Remove",
+  "expected": "AQ==",
+  "properties": [
+    {
+      "type": "protocol/net/server::InnUnsubscribeReply",
+      "name": "reply_code",
+      "value": 0
+    }
+  ]
+}

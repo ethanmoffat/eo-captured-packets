@@ -1,0 +1,23 @@
+{
+  "family": "Jukebox",
+  "action": "Open",
+  "expected": "EQI=",
+  "properties": [
+    {
+      "type": "protocol::Coords",
+      "name": "coords",
+      "children": [
+        {
+          "type": "int",
+          "name": "x",
+          "value": 16
+        },
+        {
+          "type": "int",
+          "name": "y",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}

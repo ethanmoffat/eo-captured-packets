@@ -1,0 +1,17 @@
+{
+  "family": "Board",
+  "action": "Player",
+  "expected": "Cv5IZWxsIHUgbm9vYiBkb250IGFzayBmb3IgbW9uZXkuSSBlYXJuZWQgMTBrIGJlZm9yZSBuIGkgZGlkIGl0IGFsbCBieSBteSBzZWxmIQ==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "post_id",
+      "value": 9
+    },
+    {
+      "type": "string",
+      "name": "post_body",
+      "value": "Hell u noob dont ask for money.I earned 10k before n i did it all by my self!"
+    }
+  ]
+}

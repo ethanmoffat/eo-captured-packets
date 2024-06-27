@@ -1,0 +1,43 @@
+{
+  "family": "Spell",
+  "action": "TargetOther",
+  "expected": "mAKYAgID/gv+/v5lC/4=",
+  "properties": [
+    {
+      "type": "int",
+      "name": "victim_id",
+      "value": 404
+    },
+    {
+      "type": "int",
+      "name": "caster_id",
+      "value": 404
+    },
+    {
+      "type": "protocol::Direction",
+      "name": "caster_direction",
+      "value": 1
+    },
+    {
+      "type": "int",
+      "name": "spell_id",
+      "value": 2
+    },
+    {
+      "type": "int",
+      "name": "spell_heal_hp",
+      "value": 10
+    },
+    {
+      "type": "int",
+      "name": "hp_percentage",
+      "value": 100
+    },
+    {
+      "type": "int",
+      "name": "hp",
+      "value": 10,
+      "optional": true
+    }
+  ]
+}

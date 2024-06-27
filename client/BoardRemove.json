@@ -1,0 +1,17 @@
+{
+  "family": "Board",
+  "action": "Remove",
+  "expected": "Av7pLzcNAg==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "board_id",
+      "value": 1
+    },
+    {
+      "type": "int",
+      "name": "post_id",
+      "value": 11870
+    }
+  ]
+}

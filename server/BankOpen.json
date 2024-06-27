@@ -1,0 +1,22 @@
+{
+  "family": "Bank",
+  "action": "Open",
+  "expected": "Af7+/jSaAgE=",
+  "properties": [
+    {
+      "type": "int",
+      "name": "gold_bank",
+      "value": 0
+    },
+    {
+      "type": "int",
+      "name": "session_id",
+      "value": 102769
+    },
+    {
+      "type": "int",
+      "name": "locker_upgrades",
+      "value": 0
+    }
+  ]
+}

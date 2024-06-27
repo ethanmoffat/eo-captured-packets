@@ -1,0 +1,22 @@
+{
+  "family": "Board",
+  "action": "Create",
+  "expected": "Av7/dGVzdCBwb3N0/2hlbGxvIGZyb20gKG5vdCkgdnVsdP8=",
+  "properties": [
+    {
+      "type": "int",
+      "name": "board_id",
+      "value": 1
+    },
+    {
+      "type": "string",
+      "name": "post_subject",
+      "value": "test post"
+    },
+    {
+      "type": "string",
+      "name": "post_body",
+      "value": "hello from (not) vult"
+    }
+  ]
+}

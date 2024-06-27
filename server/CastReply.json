@@ -1,0 +1,49 @@
+{
+  "family": "Cast",
+  "action": "Reply",
+  "expected": "Bf6cAgEK/gH+/mX+B/4C",
+  "properties": [
+    {
+      "type": "int",
+      "name": "spell_id",
+      "value": 4
+    },
+    {
+      "type": "int",
+      "name": "caster_id",
+      "value": 408
+    },
+    {
+      "type": "protocol::Direction",
+      "name": "caster_direction",
+      "value": 0
+    },
+    {
+      "type": "int",
+      "name": "npc_index",
+      "value": 9
+    },
+    {
+      "type": "int",
+      "name": "damage",
+      "value": 0
+    },
+    {
+      "type": "int",
+      "name": "hp_percentage",
+      "value": 100
+    },
+    {
+      "type": "int",
+      "name": "caster_tp",
+      "value": 6,
+      "optional": true
+    },
+    {
+      "type": "protocol/net/server::NpcKillStealProtectionState",
+      "name": "kill_steal_protection",
+      "value": 1,
+      "optional": true
+    }
+  ]
+}

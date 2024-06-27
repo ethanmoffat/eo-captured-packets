@@ -1,0 +1,12 @@
+{
+  "family": "Citizen",
+  "action": "Remove",
+  "expected": "Av4=",
+  "properties": [
+    {
+      "type": "int",
+      "name": "behavior_id",
+      "value": 1
+    }
+  ]
+}

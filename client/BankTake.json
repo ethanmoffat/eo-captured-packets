@@ -1,0 +1,17 @@
+{
+  "family": "Bank",
+  "action": "Take",
+  "expected": "4lz+/jSaAg==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "amount",
+      "value": 23248
+    },
+    {
+      "type": "int",
+      "name": "session_id",
+      "value": 102769
+    }
+  ]
+}

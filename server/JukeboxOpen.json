@@ -1,0 +1,17 @@
+{
+  "family": "Jukebox",
+  "action": "Open",
+  "expected": "D/4=",
+  "properties": [
+    {
+      "type": "int",
+      "name": "map_id",
+      "value": 14
+    },
+    {
+      "type": "string",
+      "name": "jukebox_player",
+      "value": ""
+    }
+  ]
+}

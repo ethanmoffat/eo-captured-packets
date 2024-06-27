@@ -1,0 +1,32 @@
+{
+  "family": "Citizen",
+  "action": "Reply",
+  "expected": "7av/Av7/NDIw/zY5/25vdGhpbmc=",
+  "properties": [
+    {
+      "type": "int",
+      "name": "session_id",
+      "value": 43246
+    },
+    {
+      "type": "int",
+      "name": "behavior_id",
+      "value": 1
+    },
+    {
+      "type": "[]string",
+      "name": "answers",
+      "children": [
+        {
+          "value": "420"
+        },
+        {
+          "value": "69"
+        },
+        {
+          "value": "nothing"
+        }
+      ]
+    }
+  ]
+}

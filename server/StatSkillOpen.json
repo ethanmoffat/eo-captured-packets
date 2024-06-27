@@ -1,0 +1,257 @@
+{
+  "family": "StatSkill",
+  "action": "Open",
+  "expected": "Av5BZXZlbiBNYXN0ZXL/Av4CAWX+/v4B/gH+Af4B/gH+Av4C/gH+Af4B/gP+BAPJ/v7+Av4B/gH+Af4B/gX+BP4B/gH+Af4I/gcD8gT+/gP+Af4B/gH+Af4L/gn+Af4B/gH+",
+  "properties": [
+    {
+      "type": "int",
+      "name": "session_id",
+      "value": 1
+    },
+    {
+      "type": "string",
+      "name": "shop_name",
+      "value": "Aeven Master"
+    },
+    {
+      "type": "[]protocol/net/server::SkillLearn",
+      "name": "skills",
+      "children": [
+        {
+          "children": [
+            {
+              "type": "int",
+              "name": "id",
+              "value": 1
+            },
+            {
+              "type": "int",
+              "name": "level_requirement",
+              "value": 1
+            },
+            {
+              "type": "int",
+              "name": "class_requirement",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "cost",
+              "value": 100
+            },
+            {
+              "type": "[]int",
+              "name": "skill_requirements",
+              "children": [
+                {
+                  "value": 0
+                },
+                {
+                  "value": 0
+                },
+                {
+                  "value": 0
+                },
+                {
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "type": "protocol/net/server::CharacterBaseStats",
+              "name": "stat_requirements",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "str",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "name": "intl",
+                  "value": 1
+                },
+                {
+                  "type": "int",
+                  "name": "wis",
+                  "value": 1
+                },
+                {
+                  "type": "int",
+                  "name": "agi",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "name": "con",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "name": "cha",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "type": "int",
+              "name": "id",
+              "value": 2
+            },
+            {
+              "type": "int",
+              "name": "level_requirement",
+              "value": 3
+            },
+            {
+              "type": "int",
+              "name": "class_requirement",
+              "value": 2
+            },
+            {
+              "type": "int",
+              "name": "cost",
+              "value": 200
+            },
+            {
+              "type": "[]int",
+              "name": "skill_requirements",
+              "children": [
+                {
+                  "value": 1
+                },
+                {
+                  "value": 0
+                },
+                {
+                  "value": 0
+                },
+                {
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "type": "protocol/net/server::CharacterBaseStats",
+              "name": "stat_requirements",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "str",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "name": "intl",
+                  "value": 4
+                },
+                {
+                  "type": "int",
+                  "name": "wis",
+                  "value": 3
+                },
+                {
+                  "type": "int",
+                  "name": "agi",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "name": "con",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "name": "cha",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "type": "int",
+              "name": "id",
+              "value": 7
+            },
+            {
+              "type": "int",
+              "name": "level_requirement",
+              "value": 6
+            },
+            {
+              "type": "int",
+              "name": "class_requirement",
+              "value": 2
+            },
+            {
+              "type": "int",
+              "name": "cost",
+              "value": 1000
+            },
+            {
+              "type": "[]int",
+              "name": "skill_requirements",
+              "children": [
+                {
+                  "value": 2
+                },
+                {
+                  "value": 0
+                },
+                {
+                  "value": 0
+                },
+                {
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "type": "protocol/net/server::CharacterBaseStats",
+              "name": "stat_requirements",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "str",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "name": "intl",
+                  "value": 10
+                },
+                {
+                  "type": "int",
+                  "name": "wis",
+                  "value": 8
+                },
+                {
+                  "type": "int",
+                  "name": "agi",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "name": "con",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "name": "cha",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

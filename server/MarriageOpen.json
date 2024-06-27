@@ -1,0 +1,12 @@
+{
+  "family": "Marriage",
+  "action": "Open",
+  "expected": "yDQP",
+  "properties": [
+    {
+      "type": "int",
+      "name": "session_id",
+      "value": 909228
+    }
+  ]
+}

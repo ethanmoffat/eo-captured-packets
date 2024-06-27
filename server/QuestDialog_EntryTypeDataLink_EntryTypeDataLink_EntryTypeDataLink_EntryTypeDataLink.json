@@ -1,0 +1,167 @@
+{
+  "family": "Quest",
+  "action": "Dialog",
+  "expected": "AgX+Bf7tq7aS/wX+S2FybWEgUXVlc3QgKHJlcCn/Av5XaGF0IHNoYWxsIGkgZG8gdG8geW91ciBrYXJtYT//A/4C/lRha2UgMTAgS2FybWH/A/4D/lRha2UgMTAwIEthcm1h/wP+BP5HaXZlIDEwIEthcm1h/wP+Bf5HaXZlIDEwMCBLYXJtYf8=",
+  "properties": [
+    {
+      "type": "int",
+      "name": "behavior_id",
+      "value": 4
+    },
+    {
+      "type": "int",
+      "name": "quest_id",
+      "value": 4
+    },
+    {
+      "type": "int",
+      "name": "session_id",
+      "value": 43246
+    },
+    {
+      "type": "int",
+      "name": "dialog_id",
+      "value": 36866
+    },
+    {
+      "type": "[]protocol/net/server::DialogQuestEntry",
+      "name": "quest_entries",
+      "children": [
+        {
+          "children": [
+            {
+              "type": "int",
+              "name": "quest_id",
+              "value": 4
+            },
+            {
+              "type": "string",
+              "name": "quest_name",
+              "value": "Karma Quest (rep)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "[]protocol/net/server::DialogEntry",
+      "name": "dialog_entries",
+      "children": [
+        {
+          "children": [
+            {
+              "type": "protocol/net/server::DialogEntryType",
+              "name": "entry_type",
+              "value": 1
+            },
+            {
+              "type": "string",
+              "name": "line",
+              "value": "What shall i do to your karma?"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "type": "protocol/net/server::DialogEntryType",
+              "name": "entry_type",
+              "value": 2
+            },
+            {
+              "type": "protocol/net/server::EntryTypeDataLink",
+              "name": "entry_type_data",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "link_id",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "type": "string",
+              "name": "line",
+              "value": "Take 10 Karma"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "type": "protocol/net/server::DialogEntryType",
+              "name": "entry_type",
+              "value": 2
+            },
+            {
+              "type": "protocol/net/server::EntryTypeDataLink",
+              "name": "entry_type_data",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "link_id",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "type": "string",
+              "name": "line",
+              "value": "Take 100 Karma"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "type": "protocol/net/server::DialogEntryType",
+              "name": "entry_type",
+              "value": 2
+            },
+            {
+              "type": "protocol/net/server::EntryTypeDataLink",
+              "name": "entry_type_data",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "link_id",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "type": "string",
+              "name": "line",
+              "value": "Give 10 Karma"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "type": "protocol/net/server::DialogEntryType",
+              "name": "entry_type",
+              "value": 2
+            },
+            {
+              "type": "protocol/net/server::EntryTypeDataLink",
+              "name": "entry_type_data",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "link_id",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "type": "string",
+              "name": "line",
+              "value": "Give 100 Karma"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

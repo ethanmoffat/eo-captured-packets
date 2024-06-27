@@ -1,0 +1,23 @@
+{
+  "family": "Locker",
+  "action": "Open",
+  "expected": "CAs=",
+  "properties": [
+    {
+      "type": "protocol::Coords",
+      "name": "locker_coords",
+      "children": [
+        {
+          "type": "int",
+          "name": "x",
+          "value": 7
+        },
+        {
+          "type": "int",
+          "name": "y",
+          "value": 10
+        }
+      ]
+    }
+  ]
+}

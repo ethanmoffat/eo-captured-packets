@@ -1,0 +1,192 @@
+{
+  "family": "Quest",
+  "action": "Dialog",
+  "expected": "AgX+Bf5OWyxx/wX+S2FybWEgUXVlc3QgKHJlcCn/Av5UaGlzIGlzIGEgdGVtcG9yYXJ5IG1lbnUgdG8gc2V0IHlvdXIgY2xhc3MgdGhydSB0aGUgcXVlc3QtZW5naW5lLCB3aWxsIGJlIGJldHRlciBsYXRlciBvbi7/A/4C/k1ha2UgbWUgUHJpZXN0/wP+A/5NYWtlIG1lIE1hZ2ljaWFu/wP+BP5NYWtlIG1lIFJvZ3Vl/wP+Bf5NYWtlIG1lIEFyY2hlcv8D/gb+TWFrZSBtZSBXYXJyaW9y/w==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "behavior_id",
+      "value": 4
+    },
+    {
+      "type": "int",
+      "name": "quest_id",
+      "value": 4
+    },
+    {
+      "type": "int",
+      "name": "session_id",
+      "value": 22847
+    },
+    {
+      "type": "int",
+      "name": "dialog_id",
+      "value": 28379
+    },
+    {
+      "type": "[]protocol/net/server::DialogQuestEntry",
+      "name": "quest_entries",
+      "children": [
+        {
+          "children": [
+            {
+              "type": "int",
+              "name": "quest_id",
+              "value": 4
+            },
+            {
+              "type": "string",
+              "name": "quest_name",
+              "value": "Karma Quest (rep)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "[]protocol/net/server::DialogEntry",
+      "name": "dialog_entries",
+      "children": [
+        {
+          "children": [
+            {
+              "type": "protocol/net/server::DialogEntryType",
+              "name": "entry_type",
+              "value": 1
+            },
+            {
+              "type": "string",
+              "name": "line",
+              "value": "This is a temporary menu to set your class thru the quest-engine, will be better later on."
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "type": "protocol/net/server::DialogEntryType",
+              "name": "entry_type",
+              "value": 2
+            },
+            {
+              "type": "protocol/net/server::EntryTypeDataLink",
+              "name": "entry_type_data",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "link_id",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "type": "string",
+              "name": "line",
+              "value": "Make me Priest"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "type": "protocol/net/server::DialogEntryType",
+              "name": "entry_type",
+              "value": 2
+            },
+            {
+              "type": "protocol/net/server::EntryTypeDataLink",
+              "name": "entry_type_data",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "link_id",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "type": "string",
+              "name": "line",
+              "value": "Make me Magician"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "type": "protocol/net/server::DialogEntryType",
+              "name": "entry_type",
+              "value": 2
+            },
+            {
+              "type": "protocol/net/server::EntryTypeDataLink",
+              "name": "entry_type_data",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "link_id",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "type": "string",
+              "name": "line",
+              "value": "Make me Rogue"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "type": "protocol/net/server::DialogEntryType",
+              "name": "entry_type",
+              "value": 2
+            },
+            {
+              "type": "protocol/net/server::EntryTypeDataLink",
+              "name": "entry_type_data",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "link_id",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "type": "string",
+              "name": "line",
+              "value": "Make me Archer"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "type": "protocol/net/server::DialogEntryType",
+              "name": "entry_type",
+              "value": 2
+            },
+            {
+              "type": "protocol/net/server::EntryTypeDataLink",
+              "name": "entry_type_data",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "link_id",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "type": "string",
+              "name": "line",
+              "value": "Make me Warrior"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

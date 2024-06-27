@@ -1,0 +1,17 @@
+{
+  "family": "Spell",
+  "action": "Request",
+  "expected": "Bf5GlkM=",
+  "properties": [
+    {
+      "type": "int",
+      "name": "spell_id",
+      "value": 4
+    },
+    {
+      "type": "int",
+      "name": "timestamp",
+      "value": 4262360
+    }
+  ]
+}

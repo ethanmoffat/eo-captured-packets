@@ -1,0 +1,12 @@
+{
+  "family": "Jukebox",
+  "action": "Agree",
+  "expected": "yCcI/g==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "gold_amount",
+      "value": 457876
+    }
+  ]
+}

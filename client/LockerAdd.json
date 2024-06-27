@@ -1,0 +1,39 @@
+{
+  "family": "Locker",
+  "action": "Add",
+  "expected": "CAuk/gL+/g==",
+  "properties": [
+    {
+      "type": "protocol::Coords",
+      "name": "locker_coords",
+      "children": [
+        {
+          "type": "int",
+          "name": "x",
+          "value": 7
+        },
+        {
+          "type": "int",
+          "name": "y",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "type": "protocol/net::ThreeItem",
+      "name": "deposit_item",
+      "children": [
+        {
+          "type": "int",
+          "name": "id",
+          "value": 163
+        },
+        {
+          "type": "int",
+          "name": "amount",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}

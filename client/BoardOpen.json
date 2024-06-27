@@ -1,0 +1,12 @@
+{
+  "family": "Board",
+  "action": "Open",
+  "expected": "Af4=",
+  "properties": [
+    {
+      "type": "int",
+      "name": "board_id",
+      "value": 0
+    }
+  ]
+}

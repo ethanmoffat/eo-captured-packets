@@ -1,0 +1,32 @@
+{
+  "family": "Recover",
+  "action": "Reply",
+  "expected": "Of7+/lkF",
+  "properties": [
+    {
+      "type": "int",
+      "name": "experience",
+      "value": 56
+    },
+    {
+      "type": "int",
+      "name": "karma",
+      "value": 1100
+    },
+    {
+      "type": "int",
+      "name": "level_up",
+      "optional": true
+    },
+    {
+      "type": "int",
+      "name": "stat_points",
+      "optional": true
+    },
+    {
+      "type": "int",
+      "name": "skill_points",
+      "optional": true
+    }
+  ]
+}

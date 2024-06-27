@@ -1,0 +1,12 @@
+{
+  "family": "Jukebox",
+  "action": "Msg",
+  "expected": "AQEB/g==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "track_id",
+      "value": 0
+    }
+  ]
+}

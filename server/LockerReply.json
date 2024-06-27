@@ -1,0 +1,59 @@
+{
+  "family": "Locker",
+  "action": "Reply",
+  "expected": "pP4B/v7+NUek/gL+/g==",
+  "properties": [
+    {
+      "type": "protocol/net::Item",
+      "name": "deposited_item",
+      "children": [
+        {
+          "type": "int",
+          "name": "id",
+          "value": 163
+        },
+        {
+          "type": "int",
+          "name": "amount",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "type": "protocol/net::Weight",
+      "name": "weight",
+      "children": [
+        {
+          "type": "int",
+          "name": "current",
+          "value": 52
+        },
+        {
+          "type": "int",
+          "name": "max",
+          "value": 70
+        }
+      ]
+    },
+    {
+      "type": "[]protocol/net::ThreeItem",
+      "name": "locker_items",
+      "children": [
+        {
+          "children": [
+            {
+              "type": "int",
+              "name": "id",
+              "value": 163
+            },
+            {
+              "type": "int",
+              "name": "amount",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

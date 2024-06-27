@@ -1,0 +1,17 @@
+{
+  "family": "Locker",
+  "action": "Buy",
+  "expected": "5ScI/gI=",
+  "properties": [
+    {
+      "type": "int",
+      "name": "gold_amount",
+      "value": 457905
+    },
+    {
+      "type": "int",
+      "name": "locker_upgrades",
+      "value": 1
+    }
+  ]
+}

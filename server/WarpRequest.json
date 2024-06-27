@@ -1,0 +1,22 @@
+{
+  "family": "Warp",
+  "action": "Request",
+  "expected": "AgP+QOA=",
+  "properties": [
+    {
+      "type": "protocol/net/server::WarpType",
+      "name": "warp_type",
+      "value": 1
+    },
+    {
+      "type": "int",
+      "name": "map_id",
+      "value": 2
+    },
+    {
+      "type": "int",
+      "name": "session_id",
+      "value": 56482
+    }
+  ]
+}

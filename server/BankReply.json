@@ -1,0 +1,17 @@
+{
+  "family": "Bank",
+  "action": "Reply",
+  "expected": "QDoG/prvAv4=",
+  "properties": [
+    {
+      "type": "int",
+      "name": "gold_inventory",
+      "value": 334529
+    },
+    {
+      "type": "int",
+      "name": "gold_bank",
+      "value": 124376
+    }
+  ]
+}

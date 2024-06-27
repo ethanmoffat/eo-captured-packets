@@ -1,0 +1,12 @@
+{
+  "family": "Citizen",
+  "action": "Request",
+  "expected": "Bf7+/g==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "cost",
+      "value": 4
+    }
+  ]
+}

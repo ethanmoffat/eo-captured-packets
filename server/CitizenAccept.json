@@ -1,0 +1,12 @@
+{
+  "family": "Citizen",
+  "action": "Accept",
+  "expected": "4ScI/g==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "gold_amount",
+      "value": 457901
+    }
+  ]
+}

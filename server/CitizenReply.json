@@ -1,0 +1,12 @@
+{
+  "family": "Citizen",
+  "action": "Reply",
+  "expected": "BA==",
+  "properties": [
+    {
+      "type": "int",
+      "name": "questions_wrong",
+      "value": 3
+    }
+  ]
+}

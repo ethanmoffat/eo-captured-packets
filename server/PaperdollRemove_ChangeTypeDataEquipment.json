@@ -1,0 +1,158 @@
+{
+  "family": "Paperdoll",
+  "action": "Remove",
+  "expected": "nAICAQH+Af4B/iP+Af6G/gEL/gv+Af4B/gH+A/4B/gH+Av4D/gT+Af4B/g==",
+  "properties": [
+    {
+      "type": "protocol/net/server::AvatarChange",
+      "name": "change",
+      "children": [
+        {
+          "type": "int",
+          "name": "player_id",
+          "value": 408
+        },
+        {
+          "type": "protocol/net/server::AvatarChangeType",
+          "name": "change_type",
+          "value": 1
+        },
+        {
+          "type": "bool",
+          "name": "sound",
+          "value": false
+        },
+        {
+          "type": "protocol/net/server::ChangeTypeDataEquipment",
+          "name": "change_type_data",
+          "children": [
+            {
+              "type": "protocol/net/server::EquipmentChange",
+              "name": "equipment",
+              "children": [
+                {
+                  "type": "int",
+                  "name": "boots",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "name": "armor",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "name": "hat",
+                  "value": 0
+                },
+                {
+                  "type": "int",
+                  "name": "weapon",
+                  "value": 34
+                },
+                {
+                  "type": "int",
+                  "name": "shield",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "int",
+      "name": "item_id",
+      "value": 133
+    },
+    {
+      "type": "int",
+      "name": "sub_loc",
+      "value": 0
+    },
+    {
+      "type": "protocol/net/server::CharacterStatsEquipmentChange",
+      "name": "stats",
+      "children": [
+        {
+          "type": "int",
+          "name": "max_hp",
+          "value": 10
+        },
+        {
+          "type": "int",
+          "name": "max_tp",
+          "value": 10
+        },
+        {
+          "type": "protocol/net/server::CharacterBaseStats",
+          "name": "base_stats",
+          "children": [
+            {
+              "type": "int",
+              "name": "str",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "intl",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "wis",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "agi",
+              "value": 2
+            },
+            {
+              "type": "int",
+              "name": "con",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "cha",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "type": "protocol/net/server::CharacterSecondaryStats",
+          "name": "secondary_stats",
+          "children": [
+            {
+              "type": "int",
+              "name": "min_damage",
+              "value": 1
+            },
+            {
+              "type": "int",
+              "name": "max_damage",
+              "value": 2
+            },
+            {
+              "type": "int",
+              "name": "accuracy",
+              "value": 3
+            },
+            {
+              "type": "int",
+              "name": "evade",
+              "value": 0
+            },
+            {
+              "type": "int",
+              "name": "armor",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

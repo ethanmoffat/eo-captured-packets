@@ -1,0 +1,81 @@
+{
+  "family": "Cast",
+  "action": "Spec",
+  "expected": "Bf6YAgIm/gH+Af4YGAH+/v4G/v4K/jn+/v4=",
+  "properties": [
+    {
+      "type": "int",
+      "name": "spell_id",
+      "value": 4
+    },
+    {
+      "type": "protocol/net/server::NpcKilledData",
+      "name": "npc_killed_data",
+      "children": [
+        {
+          "type": "int",
+          "name": "killer_id",
+          "value": 404
+        },
+        {
+          "type": "protocol::Direction",
+          "name": "killer_direction",
+          "value": 1
+        },
+        {
+          "type": "int",
+          "name": "npc_index",
+          "value": 37
+        },
+        {
+          "type": "int",
+          "name": "drop_index",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "name": "drop_id",
+          "value": 0
+        },
+        {
+          "type": "protocol::Coords",
+          "name": "drop_coords",
+          "children": [
+            {
+              "type": "int",
+              "name": "x",
+              "value": 23
+            },
+            {
+              "type": "int",
+              "name": "y",
+              "value": 23
+            }
+          ]
+        },
+        {
+          "type": "int",
+          "name": "drop_amount",
+          "value": 0
+        },
+        {
+          "type": "int",
+          "name": "damage",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "type": "int",
+      "name": "caster_tp",
+      "value": 9,
+      "optional": true
+    },
+    {
+      "type": "int",
+      "name": "experience",
+      "value": 56,
+      "optional": true
+    }
+  ]
+}

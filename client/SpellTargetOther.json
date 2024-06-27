@@ -1,0 +1,32 @@
+{
+  "family": "Spell",
+  "action": "TargetOther",
+  "expected": "A0aWQwX+Jv6hlkM=",
+  "properties": [
+    {
+      "type": "protocol/net/client::SpellTargetType",
+      "name": "target_type",
+      "value": 2
+    },
+    {
+      "type": "int",
+      "name": "previous_timestamp",
+      "value": 4262360
+    },
+    {
+      "type": "int",
+      "name": "spell_id",
+      "value": 4
+    },
+    {
+      "type": "int",
+      "name": "victim_id",
+      "value": 37
+    },
+    {
+      "type": "int",
+      "name": "timestamp",
+      "value": 4262451
+    }
+  ]
+}

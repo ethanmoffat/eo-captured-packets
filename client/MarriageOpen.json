@@ -1,0 +1,12 @@
+{
+  "family": "Marriage",
+  "action": "Open",
+  "expected": "Av4=",
+  "properties": [
+    {
+      "type": "int",
+      "name": "npc_index",
+      "value": 1
+    }
+  ]
+}
