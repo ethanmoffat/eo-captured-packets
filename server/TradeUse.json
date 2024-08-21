@@ -4,131 +4,141 @@
   "expected": "ZALt/gL+/v7T/gL+/v4F/gL+/v4r/gL+/v4p/gP+/v4z/gL+/v7/SAIC/gL+/v7/",
   "properties": [
     {
-      "type": "protocol/net/server::TradeItemData",
+      "type": "[]protocol/net/server::TradeItemData",
       "name": "trade_data",
       "children": [
         {
-          "type": "int",
-          "name": "partner_player_id",
-          "value": 352
-        },
-        {
-          "type": "[]protocol/net::Item",
-          "name": "partner_items",
+          "type": "protocol/net/server::TradeItemData",
           "children": [
             {
-              "type": "protocol/net::Item",
-              "children": [
-                {
-                  "type": "int",
-                  "name": "id",
-                  "value": 236
-                },
-                {
-                  "type": "int",
-                  "name": "amount",
-                  "value": 1
-                }
-              ]
+              "type": "int",
+              "name": "player_id",
+              "value": 352
             },
             {
-              "type": "protocol/net::Item",
+              "type": "[]protocol/net::Item",
+              "name": "items",
               "children": [
                 {
-                  "type": "int",
-                  "name": "id",
-                  "value": 210
+                  "type": "protocol/net::Item",
+                  "children": [
+                    {
+                      "type": "int",
+                      "name": "id",
+                      "value": 236
+                    },
+                    {
+                      "type": "int",
+                      "name": "amount",
+                      "value": 1
+                    }
+                  ]
                 },
                 {
-                  "type": "int",
-                  "name": "amount",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "type": "protocol/net::Item",
-              "children": [
-                {
-                  "type": "int",
-                  "name": "id",
-                  "value": 4
+                  "type": "protocol/net::Item",
+                  "children": [
+                    {
+                      "type": "int",
+                      "name": "id",
+                      "value": 210
+                    },
+                    {
+                      "type": "int",
+                      "name": "amount",
+                      "value": 1
+                    }
+                  ]
                 },
                 {
-                  "type": "int",
-                  "name": "amount",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "type": "protocol/net::Item",
-              "children": [
-                {
-                  "type": "int",
-                  "name": "id",
-                  "value": 42
+                  "type": "protocol/net::Item",
+                  "children": [
+                    {
+                      "type": "int",
+                      "name": "id",
+                      "value": 4
+                    },
+                    {
+                      "type": "int",
+                      "name": "amount",
+                      "value": 1
+                    }
+                  ]
                 },
                 {
-                  "type": "int",
-                  "name": "amount",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "type": "protocol/net::Item",
-              "children": [
-                {
-                  "type": "int",
-                  "name": "id",
-                  "value": 40
+                  "type": "protocol/net::Item",
+                  "children": [
+                    {
+                      "type": "int",
+                      "name": "id",
+                      "value": 42
+                    },
+                    {
+                      "type": "int",
+                      "name": "amount",
+                      "value": 1
+                    }
+                  ]
                 },
                 {
-                  "type": "int",
-                  "name": "amount",
-                  "value": 2
-                }
-              ]
-            },
-            {
-              "type": "protocol/net::Item",
-              "children": [
-                {
-                  "type": "int",
-                  "name": "id",
-                  "value": 50
+                  "type": "protocol/net::Item",
+                  "children": [
+                    {
+                      "type": "int",
+                      "name": "id",
+                      "value": 40
+                    },
+                    {
+                      "type": "int",
+                      "name": "amount",
+                      "value": 2
+                    }
+                  ]
                 },
                 {
-                  "type": "int",
-                  "name": "amount",
-                  "value": 1
+                  "type": "protocol/net::Item",
+                  "children": [
+                    {
+                      "type": "int",
+                      "name": "id",
+                      "value": 50
+                    },
+                    {
+                      "type": "int",
+                      "name": "amount",
+                      "value": 1
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "type": "int",
-          "name": "your_player_id",
-          "value": 324
-        },
-        {
-          "type": "[]protocol/net::Item",
-          "name": "your_items",
+          "type": "protocol/net/server::TradeItemData",
           "children": [
             {
-              "type": "protocol/net::Item",
+              "type": "int",
+              "name": "player_id",
+              "value": 324
+            },
+            {
+              "type": "[]protocol/net::Item",
+              "name": "items",
               "children": [
                 {
-                  "type": "int",
-                  "name": "id",
-                  "value": 1
-                },
-                {
-                  "type": "int",
-                  "name": "amount",
-                  "value": 1
+                  "type": "protocol/net::Item",
+                  "children": [
+                    {
+                      "type": "int",
+                      "name": "id",
+                      "value": 1
+                    },
+                    {
+                      "type": "int",
+                      "name": "amount",
+                      "value": 1
+                    }
+                  ]
                 }
               ]
             }

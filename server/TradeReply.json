@@ -4,43 +4,53 @@
   "expected": "SAIC/gL+/v7/ZAL/",
   "properties": [
     {
-      "type": "protocol/net/server::TradeItemData",
+      "type": "[]protocol/net/server::TradeItemData",
       "name": "trade_data",
       "children": [
         {
-          "type": "int",
-          "name": "partner_player_id",
-          "value": 324
-        },
-        {
-          "type": "[]protocol/net::Item",
-          "name": "partner_items",
+          "type": "protocol/net/server::TradeItemData",
           "children": [
             {
-              "type": "protocol/net::Item",
+              "type": "int",
+              "name": "player_id",
+              "value": 324
+            },
+            {
+              "type": "[]protocol/net::Item",
+              "name": "items",
               "children": [
                 {
-                  "type": "int",
-                  "name": "id",
-                  "value": 1
-                },
-                {
-                  "type": "int",
-                  "name": "amount",
-                  "value": 1
+                  "type": "protocol/net::Item",
+                  "children": [
+                    {
+                      "type": "int",
+                      "name": "id",
+                      "value": 1
+                    },
+                    {
+                      "type": "int",
+                      "name": "amount",
+                      "value": 1
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "type": "int",
-          "name": "your_player_id",
-          "value": 352
-        },
-        {
-          "type": "[]protocol/net::Item",
-          "name": "your_items"
+          "type": "protocol/net/server::TradeItemData",
+          "children": [
+            {
+              "type": "int",
+              "name": "player_id",
+              "value": 352
+            },
+            {
+              "type": "[]protocol/net::Item",
+              "name": "items"
+            }
+          ]
         }
       ]
     }
