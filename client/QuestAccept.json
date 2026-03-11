@@ -20,7 +20,7 @@
     },
     {
       "type": "int",
-      "name": "npc_index",
+      "name": "behavior_id",
       "value": 29
     },
     {
