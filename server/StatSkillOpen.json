@@ -58,7 +58,7 @@
               ]
             },
             {
-              "type": "protocol/net/server::CharacterBaseStats",
+              "type": "protocol/net/server::SkillStatRequirements",
               "name": "stat_requirements",
               "children": [
                 {
@@ -68,12 +68,12 @@
                 },
                 {
                   "type": "int",
-                  "name": "intl",
+                  "name": "wis",
                   "value": 1
                 },
                 {
                   "type": "int",
-                  "name": "wis",
+                  "name": "intl",
                   "value": 1
                 },
                 {
@@ -136,7 +136,7 @@
               ]
             },
             {
-              "type": "protocol/net/server::CharacterBaseStats",
+              "type": "protocol/net/server::SkillStatRequirements",
               "name": "stat_requirements",
               "children": [
                 {
@@ -146,12 +146,12 @@
                 },
                 {
                   "type": "int",
-                  "name": "intl",
+                  "name": "wis",
                   "value": 4
                 },
                 {
                   "type": "int",
-                  "name": "wis",
+                  "name": "intl",
                   "value": 3
                 },
                 {
@@ -214,7 +214,7 @@
               ]
             },
             {
-              "type": "protocol/net/server::CharacterBaseStats",
+              "type": "protocol/net/server::SkillStatRequirements",
               "name": "stat_requirements",
               "children": [
                 {
@@ -224,12 +224,12 @@
                 },
                 {
                   "type": "int",
-                  "name": "intl",
+                  "name": "wis",
                   "value": 10
                 },
                 {
                   "type": "int",
-                  "name": "wis",
+                  "name": "intl",
                   "value": 8
                 },
                 {
