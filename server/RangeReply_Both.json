@@ -1,7 +1,7 @@
 {
-	"family": "Players",
-	"action": "Agree",
-	"expected": "Av92dWx0LXL/WAK//hn+Gf4DAiAgIAYCCAIDC/4L/gv+C/4B/gH+Af4B/hb+Af4B/gH+I/4BAQH//w==",
+	"family": "Range",
+	"action": "Reply",
+	"expected": "Av92dWx0LXL/WAK//hn+Gf4DAiAgIAYCCAIDC/4L/gv+C/4B/gH+Af4B/hb+Af4B/gH+I/4BAQH/Fgj+BhsB/w==",
 	"properties": [
 		{
 			"type": "protocol/net/server::NearbyInfo",
@@ -158,7 +158,45 @@
 				},
 				{
 					"type": "[]protocol/net/server::NpcMapInfo",
-					"name": "npcs"
+					"name": "npcs",
+					"children": [
+						{
+							"type": "protocol/net/server::NpcMapInfo",
+							"children": [
+								{
+									"type": "int",
+									"name": "index",
+									"value": 21
+								},
+								{
+									"type": "int",
+									"name": "id",
+									"value": 7
+								},
+								{
+									"type": "protocol::Coords",
+									"name": "coords",
+									"children": [
+										{
+											"type": "int",
+											"name": "x",
+											"value": 5
+										},
+										{
+											"type": "int",
+											"name": "y",
+											"value": 26
+										}
+									]
+								},
+								{
+									"type": "protocol::Direction",
+									"name": "direction",
+									"value": 0
+								}
+							]
+						}
+					]
 				},
 				{
 					"type": "[]protocol/net/server::ItemMapInfo",
