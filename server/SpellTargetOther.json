@@ -14,8 +14,8 @@
       "value": 404
     },
     {
-      "type": "protocol::Direction",
-      "name": "caster_direction",
+      "type": "protocol/net/client::SpellTargetType",
+      "name": "target_type",
       "value": 1
     },
     {
