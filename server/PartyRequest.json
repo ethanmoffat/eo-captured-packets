@@ -4,7 +4,7 @@
   "expected": "AmQCdnVsdC1y",
   "properties": [
     {
-      "type": "protocol/net/server::AvatarChangeType",
+      "type": "protocol/net::PartyRequestType",
       "name": "request_type",
       "value": 1
     },
