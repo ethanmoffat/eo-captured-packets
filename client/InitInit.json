@@ -30,6 +30,11 @@
       ]
     },
     {
+      "type": "int",
+      "name": "protocol_version",
+      "value": 112
+    },
+    {
       "type": "string",
       "name": "hdid",
       "value": "1783186090"

@@ -5,6 +5,11 @@
   "properties": [
     {
       "type": "int",
+      "name": "request_type",
+      "value": 0
+    },
+    {
+      "type": "int",
       "name": "player_id",
       "value": 352
     }
